@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+@font-face {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Titillium Web'), url('../fonts/titillium/TitilliumWeb-Regular.woff') format('woff');
+    src: url(../fonts/titillium/TitilliumWeb-Regular.ttf) format("truetype");
+}
+
+/*body*/
+.body {
+    background-color: #333;
+    background: #333;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*Header*/
+    /*Navbar*/
+
+.navbar {
+    text-align: center;
+    background: linear-gradient(to bottom,  rgba(59,59,59,.8), rgba(0,0,0,.5));
+}
+
+.navbar div ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+.navbar div ul li {
+    margin: 20px;
+    padding: 10px 0;
+    position: relative;
+}
+
+        /*menu text*/
+.navbar div ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+}
+
+.navbar div ul li a:link {
+    text-decoration: none;
+}
+.navbar div ul li:focus {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.navbar div ul li a:active {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+.navbar div ul li a:visited {
+    text-decoration: none;
+}
+
+.navbar div ul li a:hover {
+    text-decoration: none;
+    color: rgba(255, 0, 0, .7);
+}
+
+
+.navbar div ul li a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, .7), rgba(255, 0, 0, .1));
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+}
+.navbar div ul li a:hover::before {
+    width: 100%;
+}
+
+.navbar div ul a .crtPg {
+    text-decoration: none;
+    color: rgba(255, 0, 0, .7);
+}
+.navbar div ul li a .crtPg:before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, .7), rgba(255, 0, 0, .2));
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.stickyNavbar-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+        /* Main 
+
+body main p {
+    padding-bottom: 100px;
+    text-align: center;
+}   */
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background: linear-gradient(to top,  rgba(30,30,30,.3), rgba(0,0,0,.3));
+
+}
+.footer {
+    width: 80%;
+    margin: 0 10%;
+}
+
+footer div ul li {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 15px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+footer div ul li .expLnk {
+    margin-top: 10px;
+}
+
+.footLinks:hover {
+    color: rgba(255, 0, 0, .7);
+
+}
+
+/* Shadows */
+#footLinks {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px #111;
+}
+
+.expLnk {
+    -moz-box-shadow: 0px 7px 6px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0px 7px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0px 7px 6px rgba(0, 0, 0, .3);
+}
+.expLnk:hover {
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    bottom: 0;
+}
+/* Ends here */
+
+
+footer div ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer div ul li a .footLinks {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+footer div ul li a img {
+    height: 50px;
+    width: auto;
+    background: none;
+    border-radius: 15%;    
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+footer div ul li a img:hover {
+    background: radial-gradient(rgba(255, 255, 255, 0.7) 10%, white 15%, rgba(0,0,0,.0));
+    border-radius: 20%;
+    -moz-box-shadow: 0px 7px 15px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0px 7px 15px rgba(0, 0, 0, .5);
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, .5);
+    bottom: 0;
+}
+
+footer p {
+    padding-bottom: 20px;
+}
+/* Scroll Bar */
+	/* width */
+	::-webkit-scrollbar {
+		width: 13px;
+	}
+	/* Track */
+	::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 5px grey; 
+		border-radius: 5px;
+	}
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #111; 
+		border-radius: 5px;
+	}
