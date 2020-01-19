@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <!-- Stylesheet-->
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
     <!--Fonts
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet"> -->
+
 </head>
 <body class="body">
     <!-- header -->
@@ -28,9 +30,76 @@
     </header>
     <!-- Website Main Content-->
     <main>
-        <h2>Devworks</h2>
-        <h2>Artworks</h2>
-        <h2>Written Reports</h2>
+        <div class="container"> 
+            <h2>Devworks</h2>
+                <div class="devworks">
+                    <h4>A website, I made for a client</h4>
+                    <ul>
+                        <li><a href="https://www.nicholaspatersonart.cf/"><img rel="preload" src="files/images/portfolio/npart_website.png" alt="website for a client" as="image"></a></li>
+                        <li><p>I designed and developed the website from scratch and published it for my client and can be accessed here <a href="https://www.nicholaspatersonart.cf">nicholaspatersonart.cf</a>.</p><p>This website is an artists portfolio website the showcase his artworks</p><p>Technical specifications: Html, CSS, Bootstrap, Javascript, PHP and SQL.</p></li>
+                    </ul>
+                    <h4>An unreal based class project</h4>
+                    <ul>
+                        <li><img src="#" alt="Unreal based class project"></li>
+                        <li><p>This was exploring creating and modelling game assets in 3ds Max 2018 and exporting the assets in unreal engine 4.</p></li>
+                    </ul>
+                </div>
+            <h2>Artworks</h2>
+                <div class="artworks">
+                    <h4>An personal neon sign project in Blender 3d</h4>r
+                    <ul>
+                        <li><img src="files/images/portfolio/neonSign_poster.jpg" alt="neon sign project in blender"></li>
+                        <li><p>This project was exploring modelling neon signs and rendering using blender's cycle engine in blender 2.81.</p></li>
+                    </ul>
+                    <video class="video" controls>
+                        <source src="files/videos/portfolio/neonSign_video.mp4" type="video/mp4">
+                        <p>Sorry your browser does not support video playback.</p>
+                    </video>
+
+                    <h4>Boy to Butterfy Metamarphosis</h4>
+                    <ul>
+                        <li><a href="https://www.artstation.com/artwork/1nRbV8"><img src="files/images/portfolio/boy_2_butterfly.jpg" alt="Boy to Butterfy Metamarphosis painting"></a></li>
+                        <li><p>A water colour painting portraying a boy transforming into a butterfly.</p><p>Techniques: Water colour painting</p></li>
+                    </ul>
+
+                    <h4>Medusa</h4>
+                    <ul>
+                        <li><a href="https://www.artstation.com/artwork/mqLBmy"><img src="files/images/portfolio/medusa.jpg" alt="Medusa painting"></a></li>
+                        <li><p>An acrylic painting of the tale of the Greek mythological gorgon - Medusa.</p><p>Technique: Acrylic painting</p></li>
+                    </ul>
+
+                    <h4>Man Evolution</h4>
+                    <ul>
+                        <li><a href="https://www.artstation.com/artwork/lVLeaG"><img src="files/images/portfolio/man_evolution.jpg" alt="Man Evolution painting"></a></li>
+                        <li><p>An acrylic painting showcasing a hypothetical modal of Man Evolution with 3 additional stages.</p><p>Technique: Acrylic painting</p></li>
+                    </ul>
+                </div>
+            <h2>Written Reports</h2>
+                <div class="writtenReports">
+                    <h4>LSEPI Analysis</h4>
+                    <ul>
+                        <li>
+                            <object data="files/documents/portfolio/LSEPI Analysis - Sion PEPD.pdf" type="application/pdf" width="50%" height="850">
+                                <p>
+                                    It appears your Web browser is not configured to display PDF files. No worries, just <a href="files/documents/portfolio/LSEPI Analysis - Sion PEPD.pdf">click here to Open PDF file.</a>
+                                </p>
+                            </object>
+                        </li>
+                        <li>
+                            <img id="myImg" src="files/images/portfolio/LSEPI_thumbnail.png" alt="Snow" style="width:100%;max-width:300px">
+
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+                              <span class="close">&times;</span>
+                              <img class="modal-content" id="img01">
+                              <div id="caption"></div>
+                            </div>
+
+                        </li>
+                        <li><p>Legal, Social, Ethical and Professional Issues (LSEPI) project analysis report.</p><p>A class task that aims to test your understanding and ability to discuss legal, social, ethical and professional issues in a select project</p></li>
+                    </ul>
+                </div>
+        </div>
     </main>
     <!-- Footer -->
     <footer>
@@ -52,5 +121,6 @@
             <p>MyWebsite &copy2020</p>
         </div>        
     </footer>
+    <script src="script/main.js"></script>
 </body>
 </html>
