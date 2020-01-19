@@ -1,37 +1,204 @@
+/* -- Experimental design -- *
+    .col-sm-8 {
+        width: 70%;
+    }
 
-#myImg {
-    border-radius: 5px;
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    user agent stylesheet
+    div {
+        display: block;
+    }
+    .bg-3 {
+        background-color: #ffffff;
+        color: #555555;
+        color: black;
+    }
+    .text-center {
+        text-align: center;
+    }
+    body {
+        font: 20px Lato, sans-serif;
+        line-height: 1.8;
+    }
+    body {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+    }
+    html {
+        font-size: 10px;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+    html {
+        font-family: sans-serif;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    }
+    user agent stylesheet
+    html {
+        color: -internal-root-color;
+    }
+    :after, :before {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    :after, :before {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+/* -- Ends Here --*/
+
+/* Portfolio Projects */
+main .containerProj {
+    width: 70%;
+    padding: 0px 15%;
+}
+main div hr {
+    background-color: rgba(100,100,100,.7);
+    display: block;
+    margin-top: 15px;
+    margin-bottom: .5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    box-shadow: 1px 2px 6px rgba(25,25,25,.9);
+    height: 3px;
+    width: 100%;
+}
+
+main div .typeProj {
+    font-style: italic;
+    text-align: right;
+    color: rgba(175, 175, 175, .9);
+}
+
+main div .titleProj {
+    text-transform: uppercase;
+    color: rgba(200, 200, 200, .9);
+    text-decoration: none;
+    color: rgba(255, 0, 0, .7);
+    position: relative;
+    margin: 10px 10px;
+}
+
+main div .titleProj:before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, .7), rgba(255, 0, 0, .2));
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+}
+
+main div .contentProj {
+    box-shadow: 1px 5px 6px rgba(25,25,25,.7);
+    display: flex;
+    flex-direction: column;
+}
+
+main div .contentProj ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+main div .contentProj .briefProj {
+    background: linear-gradient(to bottom, rgba(70, 70, 70, .9), rgba(25, 25, 25, .5));
+    margin: 15px auto;
+    padding: 20px 10px;
+    width: 45%;
+    box-shadow: 1px 5px 6px rgba(25,25,25,.7);
+}
+
+main div .contentProj .briefProj p {
+    padding: 7px;
+}
+
+main div .contentProj .briefProj p .briefTitle {
+    font-weight: 700;
+}
+
+main div .contentProj .imgProjHolder {
+    margin: 10px auto;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    box-shadow: 1px 5px 6px rgba(25,25,25,.7);
+}
+
+main div .contentProj .imgProjHolder .imgProj {
+    width: 480px;
+    height: 320;
+    margin-bottom: -7px;
+}
+
+main div .contentProj .detailsProj {
+    text-align: justify;
+    padding: 20px;
+}
+
+main div .contentProj .linkProj {
+    padding: 20px;
+}
+
+/* video */
+.video {
+    width: 720px;
+}
+/* LSEPI PDF reader*/
+#myThumbnail {
+    border-radius: 2px;
     cursor: pointer;
     transition: 0.3s;
   }
   
-  #myImg:hover {opacity: 0.7;}
+#myThumbnail:hover {
+    opacity: 0.7;
+    border-radius: 5px;
+}
   
   /* The Modal (background) */
-  .modal {
+.modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 25px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-  }
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
   
-  /* Modal Content (image) */
-  .modal-content {
+  /* Modal Content (PDF Reader) */
+.modal-content {
     margin: auto;
-    display: block;
+    display: block; 
     width: 80%;
-    max-width: 700px;
-  }
+    max-width: 900px;
+    height: 850px;
+    padding-bottom: 45px;
+
+}
   
   /* Caption of Modal Image */
-  #caption {
+#caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -39,29 +206,29 @@
     text-align: center;
     color: #ccc;
     padding: 10px 0;
-    height: 150px;
-  }
+    height: 20px;
+}
   
   /* Add Animation */
-  .modal-content, #caption {  
+.modal-content, #caption {  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
-  }
+}
   
-  @-webkit-keyframes zoom {
+@-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
     to {-webkit-transform:scale(1)}
-  }
-  
-  @keyframes zoom {
+}
+ 
+@keyframes zoom {
     from {transform:scale(0)} 
     to {transform:scale(1)}
-  }
+}
   
   /* The Close Button */
-  .close {
+.close {
     position: absolute;
     top: 15px;
     right: 35px;
@@ -78,8 +245,8 @@
     cursor: pointer;
   }
   
-  /* 100% Image Width on Smaller Screens */
-  @media only screen and (max-width: 700px){
+  /* 100% PDF reader Width on Smaller Screens */
+  @media only screen and (max-width: 750px){
     .modal-content {
       width: 100%;
     }
