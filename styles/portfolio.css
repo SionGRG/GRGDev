@@ -52,12 +52,6 @@ main div .contentProj ul {
     list-style: none;
     display: inline-flex;
 }
-/* different displaying on small screens */
-@media only screen and (max-width: 750px){
-    main div .contentProj ul {
-        display: inline;
-    }
-}
 
 main div .contentProj .briefProj {
     background: linear-gradient(to bottom, rgba(70, 70, 70, .9), rgba(25, 25, 25, .5));
@@ -91,6 +85,30 @@ main div .contentProj .imgProjHolder .imgProj {
 
 /* different displaying on small screens */
 @media only screen and (max-width: 750px){
+    main div .titleProj:before {
+        content: '';
+        display: block;
+        height: 3px;
+        background: linear-gradient(to bottom, rgba(255, 0, 0, .7), rgba(255, 0, 0, .2));
+        position: absolute;
+        bottom: 0;
+        width: 85%;
+    }
+    main div .contentProj ul {
+        display: inline;
+    }
+    main div .contentProj .briefProj {
+        background: linear-gradient(to bottom, rgba(70, 70, 70, .9), rgba(25, 25, 25, .5));
+        margin: 15px auto;
+        padding: 20px 10px;
+        width: 90%;
+        box-shadow: 1px 5px 6px rgba(25,25,25,.7);
+    }
+
+    main div .contentProj .briefProj p .briefTitle {
+        font-weight: 700;
+    }
+
     main div .contentProj .imgProjHolder {
         margin: 10px auto;
         margin-bottom: 15px;
@@ -100,8 +118,9 @@ main div .contentProj .imgProjHolder .imgProj {
     }
     
     main div .contentProj .imgProjHolder .imgProj {
-        width: 480px;
+        width: 90%;
         height: auto;
+        margin: 0 5%;
         margin-bottom: -7px;
     }
 }
