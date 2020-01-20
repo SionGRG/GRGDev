@@ -1,0 +1,88 @@
+main .aboutContainer {
+    background: linear-gradient(to bottom, rgba(70, 70, 70, .9), rgba(25, 25, 25, .5));
+    margin: 15px auto;
+    padding: 3% 10px;
+    width: 70%;
+    box-shadow: 1px 5px 6px rgba(25,25,25,.7);
+}
+
+main .aboutContainer h2 {
+    text-align: left;
+    text-transform: uppercase;
+    color: rgba(200, 200, 200, .9);
+    text-decoration: none;
+    color: rgba(255, 0, 0, .7);
+    position: relative;
+    margin: 10px 20%;
+}
+
+main .aboutContainer h2:before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, .7), rgba(255, 0, 0, .2));
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+}
+
+main .aboutContainer .freeAbout {
+    width: 70%;
+    padding: 0 20%;
+}
+
+
+main .aboutContainer p {
+    text-align: center;
+    padding: 20px 20%;
+}
+
+
+main .aboutContainer .freeAbout ul {
+    display: inline-flex;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+
+}
+
+main .aboutContainer .freeAbout ul li img {
+    height: 120px;
+    width: 110px;
+    background: none;  
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 7px 15px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0px 7px 15px rgba(0, 0, 0, .5);
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, .5);
+    bottom: 0;
+    margin: 0 10px;
+}
+
+ /* 100% PDF reader Width on Smaller Screens */
+ @media only screen and (max-width: 750px){
+    main .aboutContainer .freeAbout ul li img {
+        height: 60px;
+        width: 55px;
+    }
+    main .aboutContainer .freeAbout ul li {
+        display: flex;
+        float: left;
+    }
+    
+     main .aboutContainer p {
+        text-align: justify;
+        padding: 20px 5%;
+    }   
+
+    main .aboutContainer .freeAbout ul {
+        display: inline-block;
+        list-style-type: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        position: relative;
+        text-align: center;
+    }
+}
