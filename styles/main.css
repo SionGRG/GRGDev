@@ -135,8 +135,6 @@ body main p {
 footer {
     text-align: center;
     background: linear-gradient(to top,  rgba(30,30,30,.3), rgba(0,0,0,.3));
-    position: fixed;
-    bottom: 0;
 }
 .footer {
     width: 80%;
@@ -215,6 +213,22 @@ footer div ul li a img:hover {
 footer p {
     padding-bottom: 20px;
 }
+
+ /* footer on big screens*/
+ @media only screen and (max-height: 1080px){
+    footer {
+        text-align: center;
+        background: linear-gradient(to top,  rgba(30,30,30,.3), rgba(0,0,0,.3));
+        position: sticky;
+        bottom: 0;
+    }
+    .footer {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+}
+
 /* Scroll Bar */
 	/* width */
 	::-webkit-scrollbar {
