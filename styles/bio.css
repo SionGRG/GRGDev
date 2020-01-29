@@ -6,6 +6,13 @@ main .bioContainer {
     box-shadow: 1px 5px 6px rgba(25,25,25,.7);
 }
 
+main .bioContainer p{
+    text-align: justify;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 main .bioContainer h2 {
     text-align: left;
     text-transform: uppercase;

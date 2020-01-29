@@ -16,7 +16,7 @@
     font-family: 'Maximum Impact Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Maximum Impact Regular'), url('Maximum Impact.woff') format('woff'), url(../fonts/impact/impact.ttf) format('truetype');
+    src: local('Maximum Impact Regular'), url('Maximum Impact.woff') format('woff'), url('../fonts/impact/impact.ttf') format('truetype');
 }
 
 main div p {

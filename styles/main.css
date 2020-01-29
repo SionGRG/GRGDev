@@ -8,7 +8,7 @@
     font-style: normal;
     font-weight: normal;
     src: local('Titillium Web'), url('../fonts/titillium/TitilliumWeb-Regular.woff') format('woff');
-    src: url(../fonts/titillium/TitilliumWeb-Regular.ttf) format("truetype");
+    src: local('Titillium Web') url('../fonts/titillium/TitilliumWeb-Regular.ttf') format("truetype");
 }
 @font-face {
 	font-family: Algerian;
@@ -135,7 +135,7 @@ body main p {
 footer {
     text-align: center;
     background: linear-gradient(to top,  rgba(30,30,30,.3), rgba(0,0,0,.3));
-
+    position: bottom;
 }
 .footer {
     width: 80%;
