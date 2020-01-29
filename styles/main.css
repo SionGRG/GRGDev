@@ -135,6 +135,10 @@ body main p {
 footer {
     text-align: center;
     background: linear-gradient(to top,  rgba(30,30,30,.3), rgba(0,0,0,.3));
+    width: 100%;
+    position: absolute;
+    bottom: 1;
+
 }
 .footer {
     width: 80%;
@@ -215,16 +219,9 @@ footer p {
 }
 
  /* footer on big screens*/
- @media only screen and (max-height: 1080px){
+ @media only screen and (max-height: 2080px){
     footer {
-        text-align: center;
-        background: linear-gradient(to top,  rgba(30,30,30,.3), rgba(0,0,0,.3));
-        position: sticky;
-        bottom: 0;
-    }
-    .footer {
-        width: 80%;
-        margin: 0 10%;
+        
     }
 
 }
