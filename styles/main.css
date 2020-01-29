@@ -221,6 +221,7 @@ footer p {
  /* footer on big screens*/
  @media only screen and (min-height: 1080px){
     footer {
+        position: absolute;
         bottom: 0;
     }
 
