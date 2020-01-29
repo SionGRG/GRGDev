@@ -219,9 +219,9 @@ footer p {
 }
 
  /* footer on big screens*/
- @media only screen and (max-height: 2080px){
+ @media only screen and (min-height: 1080px){
     footer {
-        
+        bottom: 0;
     }
 
 }
