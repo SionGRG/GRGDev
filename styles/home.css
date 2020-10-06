@@ -1,3 +1,4 @@
+/*Homepage container */
 main .homeContainer {
     background: linear-gradient(to bottom, rgba(70, 70, 70, .9), rgba(25, 25, 25, .5));
     margin: 15px auto;
@@ -12,13 +13,30 @@ main .homeContainer {
 	font-weight: normal;
 	font-style: normal;
 }
+
+/* Website Home Logo*/
 main .homeContainer .mylogo {
     font-family: Algerian;
-    font-size: 120px;
-    padding: 20px 0px;
+    padding: 20px 20px;
     text-shadow: 10px 10px 6px rgba(25,25,25,.9);
 }
 
+main .homeContainer .mylogo p {
+    font-size: 120px;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile devices and smaller screens */
+    main .homeContainer .mylogo {
+        padding: 5px 20px;
+    }
+    
+    main .homeContainer .mylogo p {
+        font-size: 48px;
+    }
+}
+
+/* Homepage container text */
 main .homeContainer h2 {
     text-align: left;
     text-transform: uppercase;

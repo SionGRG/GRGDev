@@ -109,9 +109,10 @@
 }
 
  /* Navbar on Smaller Screens */
- @media only screen and (max-width: 750px){
-    
-
+ @media only screen and (max-width: 768px){
+    .navbar div ul a {
+        font-size: 12px;
+    }
 }
 
 .stickyNavbar-menu {

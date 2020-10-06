@@ -24,8 +24,21 @@
 }
 .thx-img {
 	width: auto;
-    max-width: 50%;
+    max-width: 75%;
     margin-bottom: 50px;
+}
+
+/* For smaller screen devices */
+@media only screen and (max-width: 768px) {
+	.thx {
+		font-size: 32px;
+		margin-bottom: 5px;
+	}
+
+	.thx-img {
+		max-width: 85%;
+		margin-bottom: 25px;
+	}
 }
 .snt {
 	color: #f2f2f2;

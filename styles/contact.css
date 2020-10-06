@@ -26,6 +26,7 @@ main div p {
 	font-size: 45px;
 	margin-bottom: 20px;
 	background: linear-gradient(to bottom,rgba(255, 0, 0, .9), rgba(255, 0, 0, .2));
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -110,6 +111,12 @@ label {
     cursor: pointer;
     border: none;
 	border-radius: 75px;
+}
+/* Submit button on smaller screens*/
+@media only screen and (max-width: 768px) {
+	.submit .btn {
+		padding: 12px 50px; 
+	}
 }
 
 ::-webkit-input-placeholder{
