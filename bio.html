@@ -7,7 +7,10 @@
     <title>Bio</title>
     <!-- Website Icon-->
     <link rel="shortcut icon" href="files/images/logo/sionG_logo.png">
-    <!-- Stylesheet -->
+    
+    <!-- bootstrap --
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css">
+    <-- Stylesheet -->
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/bio.css">
 
@@ -38,13 +41,45 @@
         <div class="bioContainer">
             <p>A BSc Computer Science for Games student at Sheffield Hallam University looking to build a career in the video games industry. Captivated by narrative story-driven games and passionate about developing video games across all platforms with a focus on console gaming.</p>
             <h2>My CV</h2>
-            <div>    
-                <object data="files/documents/bio/Sion MyCV-2021.pdf" type="application/pdf" class="modal-content" id="pdfReader">
-                    <p>
-                        It appears your Web browser is not configured to display PDF files. No worries, just <a href="files/documents/bio/Sion MyCV-2021.pdf">click here to Open PDF file.</a>
-                    </p>
-                </object>
-                <a class="linkBio" href="files/documents/bio/Sion MyCV-2021.pdf">Click Here to access the CV</a>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                            My CV 2021
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                        <div class="card-body">
+                            <object data="files/documents/bio/Sion MyCV-2021.pdf" type="application/pdf" class="modal-content" id="pdfReader">
+                                <p>
+                                    It appears your Web browser is not configured to display PDF files. No worries, just <a href="files/documents/bio/Sion MyCV-2021.pdf">click here to Open PDF file.</a>
+                                </p>
+                            </object>
+                            <div class="CVLink">
+                                <a href="files/documents/bio/Sion MyCV-2021.pdf">Click Here to access the CV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                            My CV 2020
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <object data="files/documents/bio/Sion MyCV-2020.pdf" type="application/pdf" class="modal-content" id="pdfReader">
+                                <p>
+                                    It appears your Web browser is not configured to display PDF files. No worries, just <a href="files/documents/bio/Sion MyCV-2020.pdf">click here to Open PDF file.</a>
+                                </p>
+                            </object>
+                            <div class="CVLink">
+                                <a href="files/documents/bio/Sion MyCV-2020.pdf">Click Here to access the CV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         
@@ -66,9 +101,13 @@
                     <li><a href="https://www.linkedin.com/in/sion-iradukunda-a9a80a1b8/"><img src="files/images/icons/icon_Linkedin.png" alt="My Linkedin"></a></li>
                 </ul>
             </div>
-            <p>Sion GREG &copy2020</p>
+            <p>Sion GREG &copy<span id="copyYear"></span></p>
         </div>        
     </footer>
+    <!-- Scripts -->
+    <script src="script/jquery.min.js"></script>
+    <script src="script/bootstrap/bootstrap.min.js"></script>
     <script src="script/main.js"></script>
+    <script src="script/bio.js"></script>
 </body>
 </html>

@@ -1,3 +1,7 @@
+// Copyright year
+var copyDate = new Date();
+document.getElementById("copyYear").innerHTML = copyDate.getFullYear();
+
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 
