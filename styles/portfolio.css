@@ -130,7 +130,7 @@ main div .contentProj .imgProjHolder .imgProj {
         box-shadow: 1px 5px 6px rgba(25,25,25,.7);
         text-align: center;
     }
-    
+
     main div .contentProj .imgProjHolder .imgProj {
         width: 100%;
         height: auto;
@@ -159,11 +159,386 @@ main div .contentProj .linkProj:hover {
     color: rgba(255, 0, 0, .4);
 }
 
+/* Project gallery */
+.contentProj .galleryProj {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.contentProj .galleryProj .gTitle {
+    font-size: 32px;
+    background-color: transparent;
+    border: none;
+    border-bottom: #111 solid 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 20;
+    font-size: 28px;
+    width: 30%;
+    height: auto;
+    color: rgba(255,0,0,0.6);
+}
+
+.contentProj .galleryProj .gTitle:hover {
+    color: rgba(200,0,0,0.9);
+}
+
+/* Project Gallery Box  */
+
+    /* gallery box */
+.gBox {
+    margin: auto 20px;
+    background-color: #222;
+}
+
+.gBox .gBoxTabs {
+    overflow: hidden;
+    border-bottom: 1px solid #444;
+    background-color: #111;
+}
+
+/* style the tabs inside the gallery box */
+.gBox .gBoxTabs button {
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    width: 200px;
+    height: auto;
+    text-transform: capitalize;
+    background-color: rgba(80, 0, 0, 0.7);
+    text-transform: uppercase;
+    padding: 14px 16px;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+/* hovered tabs */
+.gBox .gBoxTabs button:hover {
+    /*......*/
+    background-color: rgba(255, 0, 0, .9);
+
+}
+
+/* active tab */
+.gBox .gBoxTabs .active {
+    background-color: rgba(255, 0, 0, .7);
+    /*... */
+}
+
+    /* style the tab contents seal button */
+.gBox .gBoxContent .seal {
+    text-align: center;
+    cursor: pointer;
+    font-size: 28px;
+    padding: 10px;
+    width: auto;
+}
+
+.gBox .gBoxContent .seal:hover {
+    color: rgba(255, 0, 0, .9);
+    /* animate */
+    animation-name: sealDance;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sealDance {
+    0%      {transform: translate(0px, 0px);}
+    25%     {transform: translate(0px, -5px);}
+    50%     {transform: translate(0px, 0px);}
+    75%     {transform: translate(0px, -5px);}
+    100%    {transform: translate(0px, 0px);}
+}
+
+    /* style the tab contents */
+.gBox .gBoxContent {
+    padding: 10px;
+    display: none;
+}
+
+    /* Carousel styiling */
+
+.carousel {
+    position: relative;
+}
+
+.carousel.pointer-event {
+    touch-action: pan-y;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-inner::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+    .carousel-item {
+        transition: none;
+    }
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: block;
+}
+
+/* rtl:begin:ignore */
+.carousel-item-next:not(.carousel-item-start),
+.active.carousel-item-end {
+    transform: translateX(100%);
+}
+
+.carousel-item-prev:not(.carousel-item-end),
+.active.carousel-item-start {
+    transform: translateX(-100%);
+}
+
+/* rtl:end:ignore */
+.carousel-fade .carousel-item {
+    opacity: 0;
+    transition-property: opacity;
+    transform: none;
+}
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-start,
+.carousel-fade .carousel-item-prev.carousel-item-end {
+    z-index: 1;
+    opacity: 1;
+}
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 0s 0.6s;
+}
+@media (prefers-reduced-motion: reduce) {
+    .carousel-fade .active.carousel-item-start,
+    .carousel-fade .active.carousel-item-end {
+        transition: none;
+    }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: none;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        transition: none;
+    }
+}
+.carousel-control-prev:hover, .carousel-control-prev:focus,
+.carousel-control-next:hover,
+.carousel-control-next:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: 0.9;
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+/* rtl:options: {
+    "autoRename": true,
+    "stringMap":[ {
+      "name"    : "prev-next",
+      "search"  : "prev",
+      "replace" : "next"
+    } ]
+} */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    font-size: 28px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(170,0,0,1), 0 0 5px rgba(100,0,0,1);
+}
+.carousel-control-prev-icon {
+    animation-name: lsld;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes lsld {
+    0%      {transform:translateX(0px); }
+    25%     {transform:translateX(2px); }
+    50%     {transform:translateX(0px); }
+    75%     {transform:translateX(2px); }
+    100%    {transform:translateX(0px); }
+}
+
+.carousel-control-next-icon {
+    animation-name: rsld;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes rsld {
+    0%      {transform:translateX(0px); }
+    25%     {transform:translateX(-2px); }
+    50%     {transform:translateX(0px); }
+    75%     {transform:translateX(-2px); }
+    100%    {transform:translateX(0px); }
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 5px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 2px;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+    box-shadow: 0px 2px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 2px #111, 0 0 25px rgba(170,0,0,1), 0 0 5px rgba(100, 0, 0, 0);
+}
+@media (prefers-reduced-motion: reduce) {
+    .carousel-indicators [data-bs-target] {
+        transition: none;
+    }
+}
+.carousel-indicators .active {
+    background-color: rgba(200,0,0,0.9);
+    border: 2px solid rgba(200,0,0,0.9);
+    height: 5px;
+    opacity: 1;
+    transform: translate(0px, -2px);
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-dark .carousel-control-prev-icon,
+.carousel-dark .carousel-control-next-icon {
+    filter: invert(1) grayscale(100);
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #000;
+}
+.carousel-dark .carousel-caption {
+    color: #000;
+}
+
+/* Hidden contents */
+.visually-hidden,
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+
+/* Project contents */
+.gBox .gBoxContent div {
+    /* style the contents */
+}
+.gBox .gBoxContent h3 {
+    padding-bottom: 15px;
+    text-transform: capitalize;
+}
+.imgCrsl {
+    width: 90%;
+    height: auto;
+    max-height: 480px;
+}
+
+
 /* video */
 main div .contentProj .video {
     text-align: center;
     width: 70%;
     height: auto;
+    padding: 3px 15%;
+}
+
+.ytVideo {
+    text-align: center;
+    width: 70%;
+    height: 420px;
     padding: 3px 15%;
 }
 
@@ -178,7 +553,7 @@ main div .contentProj .video {
     opacity: 0.7;
     border-radius: 5px;
 }
-  
+
   /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -193,18 +568,18 @@ main div .contentProj .video {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
 }
-  
+
   /* Modal Content (PDF Reader) */
 .modal-content {
     margin: auto;
-    display: block; 
+    display: block;
     width: 80%;
     max-width: 900px;
     height: 850px;
     padding-bottom: 45px;
 
 }
-  
+
   /* Caption of Modal Image */
 #caption {
     margin: auto;
@@ -216,25 +591,25 @@ main div .contentProj .video {
     padding: 10px 0;
     height: 20px;
 }
-  
+
   /* Add Animation */
-.modal-content, #caption {  
+.modal-content, #caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
 }
-  
+
 @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
+    from {-webkit-transform:scale(0)}
     to {-webkit-transform:scale(1)}
 }
- 
+
 @keyframes zoom {
-    from {transform:scale(0)} 
+    from {transform:scale(0)}
     to {transform:scale(1)}
 }
-  
+
   /* The Close Button */
 .close {
     position: absolute;
@@ -244,18 +619,27 @@ main div .contentProj .video {
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
   /* 100% PDF reader Width on Smaller Screens */
-  @media only screen and (max-width: 750px){
-    .modal-content {
-      width: 100%;
-    }
-  }
+ @media only screen and (max-width: 750px){
+   .modal-content {
+     width: 100%;
+   }
+ }
+
+    /* Project separation line */
+ .tLineProj {
+     opacity: .7;
+}
+
+.bLineProj {
+    border-radius: 50%;
+}

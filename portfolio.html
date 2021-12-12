@@ -7,6 +7,8 @@
     <title>Portfolio</title>
     <!-- Website Icon-->
     <link rel="shortcut icon" href="files/images/logo/sionG_logo.png">
+    <!-- bootstrap --
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css"> -->
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/portfolio.css">
@@ -38,7 +40,7 @@
         
     <!-- Project content display default fomart    
         <div class="containerProj">
-            <hr class="lineProj">
+            <hr class="tLineProj">
             <p class="typeProj">Project type</p>
             <h2 class="titleProj">Project Title</h2>
             <div class="contentProj">
@@ -54,13 +56,178 @@
                 </ul>
                 <P class="detailsProj"><strong>About the project: </strong>HHHHH HHHHHH HHHHH HHHHHH HHHHH HHHHHHH HHH HHHH HH HHHHH HHH HHHHH HHH HH HHHH HH HHHHH HH HHHHHHH HHHHH HHHHH H HHHH HHHHH HHH HHHHH H HHHHH HHHH HHHHH HHHHHH HHHHHH HHHH HHHHHH HHHHH HH HHHHHH HHHHH HHHHH HHHHH HHH HHHH HHH H HHHH HHHHH HHH HHHHH HHHHHH HHHHHH HHHH HHHHH HHHHH HHHHH</P>
                 <p class="detailsProj"><strong>My Involvement: </strong>HHHHHH HHHH HHH HH HHH HHH HHHHH HHHHHH HHHHHHHHH HHHHHHHH HH HHHHHH HHHHHH HHHHH HHHHHH HHHH HHHHH HHHHHH HHH HHHH HHHH HHHHH HH HHHHHH HHHHH HHHHH HHHHHH HHHHHHH HHHHH HHHHHH HHHHHH HHHHHHH HHHHHH HHHHHH HHHH HHH HHHHH HHHH HHHHHH HHHHH HHHHH HHHH HHHHHH HHHHH HHHHH HHHH HHHHH</p>
+                <!- Project Gallery --
+                <div class="galleryProj">
+                    <button onclick="showGallery('gBoxM')" class="gTitle">&#x25A6; Gallery &#x25A6;</button>
+                    <!- Documents, Images and videos about the project --
+                    <div id="gBoxM" class="gBox">
+                        <div class="gBoxTabs">
+                            <button class="gBoxTab" onclick="openTab(event, 'gBoxC1')">Documents</button>
+                            <button class="gBoxTab" onclick="openTab(event, 'gBoxC2')">Videos</button>
+                            <button class="gBoxTab" onclick="openTab(event, 'gBoxC3')">Images</button>
+                        </div>
+                        <div id="gBoxC1" class="gBoxContent">
+                            <!- document contents --\
+                            <h3>Documents</h3>
+                            <p>here are the project documents</p>
+                            <div class="seal" onclick="this.parentElement.style.display='none'; closeTab()">&#x2259</div>
+                        </div>
+                        <div id="gBoxC2" class="gBoxContent">
+                            <!- video contents --
+                            <h3>Videos</h3>
+                            <p>here are the project videos</p>
+                            <div class="seal" onclick="this.parentElement.style.display='none'; closeTab()">&#x2259</div>
+                        </div>
+                        <div id="gBoxC3" class="gBoxContent">
+                            <!- images contents --
+                            <h3>Images</h3>
+                            <p>here are the project images</p>
+                            <!-- images carousel --
+                            <div id="carouselIndicators" class="carousel slide pointer-event" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="imgCrsl" src="files/images/portfolio/Project_thumbnail.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/Project_thumbnail.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/Project_thumbnail.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true">&#x276E</span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true">&#x276F</span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                            <div class="seal" onclick="this.parentElement.style.display='none'; closeTab()">&#x2259</div>
+                        </div>
+                    </div>
+                </div>
                 <a class="linkProj" href="#">Click Here to Access the project / view the project on</a>
             </div>
-            <hr class="lineProj">
+            <hr class="bLineProj">
         </div>  -->
+          
+    <!-- Project content display default fomart -->   
+        <div class="containerProj">
+            <hr class="tLineProj">
+            <p class="typeProj">Personal</p>
+            <h2 class="titleProj">Volt Puzzle</h2>
+            <div class="contentProj">
+                <ul>
+                    <li class="briefProj">
+                        <p><span class="briefTitle">Role: </span>Game Developer</p>
+                        <p><span class="briefTitle">Date: </span>May 2021</p>
+                        <p><span class="briefTitle">Tools: </span>Microsoft Visual Studio 2019, Web browser (Microsoft Edge), Photoshop, Github</p>
+                        <p><span class="briefTitle">Techniques: </span>c#, Javascript, MVC framework, .Net Core, HTML, CSS, Bootstrap, JQuery</p>
+                    </li>
+                    <li class="imgProjHolder"><a href="#"><img rel="preload" src="files/images/portfolio/VoltPuzzle_thumbnail.png" alt="volt Puzzle project thumbnail" class="imgProj"></a></li>
+                </ul>
+                <P class="detailsProj"><strong>About the project: </strong>This is a puzzle game where the player is tasked with connecting circuit nodes from the left (Charge Nodes) to the circuit nodes on the right (Receiver Nodes) to match the result to the target value before the time runs out. 
+                    This game project was inspired by a particular section from the massively popular game GTA V online from their latest Cayo Perico update where the player is tasked with hacking a circuit box as part of their mission.</P>
+                <p class="detailsProj"><strong>My Involvement: </strong>I was tasked with developing a web based game</p>
+                <!-- Project Gallery -->
+                <div class="galleryProj">
+                    <button onclick="showGallery('gBoxM')" class="gTitle">&#x25A6; Gallery &#x25A6;</button>
+                    <!-- Documents, Images and videos about the project -->
+                    <div id="gBoxM" class="gBox">
+                        <div class="gBoxTabs">
+                            <button class="gBoxTab" onclick="openTab(event, 'gBoxC1')">Documents</button>
+                            <button class="gBoxTab" onclick="openTab(event, 'gBoxC2')">Videos</button>
+                            <button class="gBoxTab" onclick="openTab(event, 'gBoxC3')">Images</button>
+                        </div>
+                        <div id="gBoxC1" class="gBoxContent">
+                            <!-- document contents -->
+                            <h3>Documents</h3>
+                            <p>The project documents are still in the works. Coming in a timely manner.</p>
+                            <p>In the mean time you can check out the videos and images about the project.</p>
+                            <div class="seal" onclick="this.parentElement.style.display='none'; closeTab()">&#x2259</div>
+                        </div>
+                        <div id="gBoxC2" class="gBoxContent">
+                            <!-- video contents -->
+                            <h3>Videos</h3>
+                            <iframe class="ytVideo" src="https://www.youtube.com/embed/bAu7itv0I4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="seal" onclick="this.parentElement.style.display='none'; closeTab()">&#x2259</div>
+                        </div>
+                        <div id="gBoxC3" class="gBoxContent">
+                            <!-- images contents -->
+                            <h3>Images</h3>
+                            <!-- images carousel -->
+                            <div id="carouselIndicators1" class="carousel slide pointer-event" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                  <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                  <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                  <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                  <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                  <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                  <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="imgCrsl" src="files/images/portfolio/ProjX_VoltPuzzle/01.png" class="d-block w-100" alt="Volt Puzzle main menu screen image">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/ProjX_VoltPuzzle/02.png" class="d-block w-100" alt="Volt Puzzle nodes instructions screen image">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/ProjX_VoltPuzzle/03.png" class="d-block w-100" alt="Volt Puzzle target instructions screen image">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/ProjX_VoltPuzzle/04.png" class="d-block w-100" alt="Volt Puzzle Result instructions screen image">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/ProjX_VoltPuzzle/05.png" class="d-block w-100" alt="Volt Puzzle Timer instructions screen image">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/ProjX_VoltPuzzle/06.png" class="d-block w-100" alt="Volt Puzzle Matching (connecting nodes) instructions screen image">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/ProjX_VoltPuzzle/07.png" class="d-block w-100" alt="Volt Puzzle Resetting instructions screen image">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/ProjX_VoltPuzzle/08.png" class="d-block w-100" alt="Volt Puzzle Level selection screen image">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/ProjX_VoltPuzzle/09.png" class="d-block w-100" alt="Volt Puzzle gameplay screen image">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/ProjX_VoltPuzzle/10.png" class="d-block w-100" alt="Volt Puzzle gameover screen image">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators1" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true">&#x276E</span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators1" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true">&#x276F</span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                            <div class="seal" onclick="this.parentElement.style.display='none'; closeTab()">&#x2259</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a class="linkProj" href="https://voltpuzzle.azurewebsites.net/">Click Here to play Volt Puzzle</a> -->
+            </div>
+            <hr class="bLineProj">
+        </div>
 
         <div class="containerProj">
-            <hr class="lineProj">
+            <hr class="tLineProj">
             <p class="typeProj">Group Project</p>
             <h2 class="titleProj">Goblin Rush</h2>
             <div class="contentProj">
@@ -76,18 +243,19 @@
                 </ul>
                 <P class="detailsProj"><strong>About the game: </strong>Goblin Rush is a go-kart-style racing game inspired by the likes of the Mario kart series and fall guys. The game combines Mario Kart racing with fall guys physics and sees two players race against each other as goblins driving mine cart in a split-screen multiplayer style.</P>
                 <p class="detailsProj"><strong>My Involvement: </strong>I was the programmer on the Goblin Rush project. I worked on the vehicle movement, the sound programming implementing the theme song into the game, the multiplayer element of the game. I also worked on the main menu and pause menu user interface.</p>
-                <video class="video" controls poster="files/images/portfolio/Goblin_Rush_Main_Menu.png">
+                <!-- <video class="video" controls poster="files/images/portfolio/Goblin_Rush_Main_Menu.png">
                     <source src="files/videos/portfolio/Goblin_Rush_Trailer.mp4" type="video/mp4">
                     <p>Sorry your browser does not support video playback.</p>
-                </video>
+                </video> -->
+                <iframe class="ytVideo" src="https://www.youtube.com/embed/qJLX8RQnJPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p class="ProjNotice"><Strong>Note: </Strong>This is just a prototype.</p>
                 <a class="linkProj" href="https://drive.google.com/file/d/1tdUtBDA9ar0mF2iOlbPgDT-zEt1d8OxG/view?usp=sharing">Click Here to download Goblin Rush Game Demo</a>
             </div>
-            <hr class="lineProj">
+            <hr class="bLineProj">
         </div>
 
         <div class="containerProj">
-            <hr class="lineProj">
+            <hr class="tLineProj">
             <p class="typeProj">Group Project</p>
             <h2 class="titleProj">Drakaero</h2>
             <div class="contentProj">
@@ -101,20 +269,21 @@
                     </li>
                     <li class="imgProjHolder"><a href="files/projects/portfolio/Drakaero Build ver1.2.rar"><img rel="preload" src="files/images/portfolio/Drakaero_Main_Menu.png" alt="Drakaero project thumbnail" class="imgProj"></a></li>
                 </ul>
-                <P class="detailsProj"><strong>About the game: </strong>Drakaero follows the story of a young woman, born from a long line of dragon riders, a rare commodity in the kingdom warriors, who are born with special gifts that allow them to tame and harness a dragon. They can also communicate and understand the dragons. Even rarer, however, is one that is female. She joined the military with mixed reception, many were not confident that she could keep up with the high workload, not to mention her taboo birth brought her unnecessary harassment; but after many years of prejudice and judgement, she quickly climbed up the ranks to become one of the kingdoms most affluent warriors. Her prideful role at the top of the ranks now hangs in the balance, as the king has sent her on her most dangerous mission yet, to prove herself worthy of being one of the king’s guard. Some would call this mission suicide, but for her, it was the chance she needed to prove all that doubted her wrong and reclaim the pride of her race.</P>
+                <P class="detailsProj"><strong>About the game: </strong>Drakaero follows the story of a young woman, born from a long line of dragon riders, a rare commodity in the kingdom warriors, who are born with special gifts that allow them to tame and harness a dragon. They can also communicate and understand dragons. Even rarer, however, is one that is female. She joined the military with mixed reception, many were not confident that she could keep up with the high workload, not to mention her taboo birth brought her unnecessary harassment; but after many years of prejudice and judgement, she quickly climbed up the ranks to become one of the kingdoms most affluent warriors. Her prideful role at the top of the ranks now hangs in the balance, as the king has sent her on her most dangerous mission yet, to prove herself worthy of being one of the king’s guards. Some would call this mission suicide, but for her, it was the chance she needed to prove all that doubted her wrong and reclaim the pride of her race.</P>
                 <p class="detailsProj"><strong>My Involvement: </strong>I was one of the two programmers on the Drakaero project. I was tasked with working on the enemies, their movement, shooting and health mechanics. After that, I worked on the sound programming implementing the theme song into the game. I also worked on the main menu user interface.</p>
-                <video class="video" controls poster="files/images/portfolio/Drakaero_Main_Menu.png">
+                <!-- <video class="video" controls poster="files/images/portfolio/Drakaero_Main_Menu.png">
                     <source src="files/videos/portfolio/Drakaero_Game_Demo.mp4" type="video/mp4">
                     <p>Sorry your browser does not support video playback.</p>
-                </video>
+                </video> -->
+                <iframe class="ytVideo" src="https://www.youtube.com/embed/y7n6OVO_uTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p class="ProjNotice"><Strong>Note: </Strong>This is an early build concept and it does not include final pieces of the artists' work.</p>
                 <a class="linkProj" href="files/projects/portfolio/Drakaero Build ver1.2.rar">Click Here to download Drakaero Game Demo</a>
             </div>
-            <hr class="lineProj">
+            <hr class="bLineProj">
         </div>
 
         <div class="containerProj">
-            <hr class="lineProj">
+            <hr class="tLineProj">
             <p class="typeProj">Professional</p>
             <h2 class="titleProj">Nicholas Paterson Art</h2>
             <div class="contentProj">
@@ -132,11 +301,11 @@
                 <p class="detailsProj"><strong>My Involvement: </strong>I was tasked with designing, developing and publishing the website. I designed the website and showed the client to see the features he would like to add or remove. When the client was satisfied with the design, I moved on to implementation stage. I built the website and ocassionally showed my client the progress to see what he liked so far  or what he didn't like. After the website was ready, I published it using Github and Netlify.</p>
                 <a class="linkProj" href="https://npart7.github.io/nicholaspatersonart.github.io/">Click Here to visit the website</a>
             </div>
-            <hr class="lineProj">
+            <hr class="bLineProj">
         </div>
 
         <div class="containerProj">
-            <hr class="lineProj">
+            <hr class="tLineProj">
             <p class="typeProj">Personal</p>
             <h2 class="titleProj">Project Porticullis: An Unreal based class project</h2>
             <div class="contentProj">
@@ -153,11 +322,11 @@
                 <p class="detailsProj"><strong>My Involvement: </strong>I modelled a medieval porticullis and the wheel used to open the porticullis gate using 3ds Max 2018, then exported the assets into unreal engine 4</p> <!--
                 <a class="linkProj" href="#">Click Here to Access the project / view the project on</a> -->
             </div>
-            <hr class="lineProj">
+            <hr class="bLineProj">
         </div>
 
         <div class="containerProj">
-            <hr class="lineProj">
+            <hr class="tLineProj">
             <p class="typeProj">Personal</p>
             <h2 class="titleProj">An personal neon sign project in Blender 3d</h2>
             <div class="contentProj">
@@ -172,17 +341,20 @@
                 </ul>
                 <P class="detailsProj"><strong>About the project: </strong>This project was exploring modelling neon signs and rendering using blender's cycle engine in blender 2.81.</P>
                 <p class="detailsProj"><strong>My Involvement: </strong>I modelled the neon sign using blender 2.81 and rendered an animation using Blender's cycle engine and made a video usign Blender video editting tool.</p>
-                <video class="video" controls poster="files/images/portfolio/neonSign_poster.jpg">
+                <!-- <video class="video" controls poster="files/images/portfolio/neonSign_poster.jpg">
                     <source src="files/videos/portfolio/neonSign_video.mp4" type="video/mp4">
                     <p>Sorry your browser does not support video playback.</p>
-                </video>
+                </video> -->
+                
+                <iframe class="ytVideo" src="https://www.youtube.com/embed/goepUbrTN0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                 <a class="linkProj" href="https://www.artstation.com/artwork/mq2R99">Click Here to view the project on Artstation</a>
             </div>
-            <hr class="lineProj">
+            <hr class="bLineProj">
         </div>
 
         <div class="containerProj">
-            <hr class="lineProj">
+            <hr class="tLineProj">
             <p class="typeProj">Personal</p>
             <h2 class="titleProj">Medusa</h2>
             <div class="contentProj">
@@ -198,11 +370,11 @@
                 <P class="detailsProj"><strong>About the project: </strong>An acrylic painting of the legend of Medusa. Medusa is sitting in front of a mirror staring at a reflection of herself before she turned into a gorgon. She is surrounded by statues of soldiers she has turned. The use of dull colours portrays how lonelyness and isolation, and the light highlights the reflection of the inocent girl she was.</P>
                 <a class="linkProj" href="https://www.artstation.com/artwork/mqLBmy">Click Here to view the painting on Artstation</a>
             </div>
-            <hr class="lineProj">
+            <hr class="bLineProj">
         </div>
 
         <div class="containerProj">
-            <hr class="lineProj">
+            <hr class="tLineProj">
             <p class="typeProj">Personal</p>
             <h2 class="titleProj">Man Evolution</h2>
             <div class="contentProj">
@@ -218,11 +390,11 @@
                 <P class="detailsProj"><strong>About the project: </strong>An Acrylic painting portraying a hypothetical man evolution modal with 3 additional imaginary stages.</P>
                 <a class="linkProj" href="https://www.artstation.com/artwork/lVLeaG">Click Here to view the painting on Artstation</a>
             </div>
-            <hr class="lineProj">
+            <hr class="bLineProj">
         </div>
 
         <div class="containerProj">
-            <hr class="lineProj">
+            <hr class="tLineProj">
             <p class="typeProj">Personal</p>
             <h2 class="titleProj">Boy to Butterfy Metamarphosis</h2>
             <div class="contentProj">
@@ -238,12 +410,12 @@
                 <P class="detailsProj"><strong>About the project: </strong>A water colour painting showing metamarphosis of a boy transforming into a butterfly hovering over water</P>
                 <a class="linkProj" href="https://www.artstation.com/artwork/1nRbV8">Click Here to view the painting on Artstation</a>
             </div>
-            <hr class="lineProj">
+            <hr class="bLineProj">
         </div>
         
         
         <div class="containerProj">
-            <hr class="lineProj">
+            <hr class="tLineProj">
             <p class="typeProj">Written task</p>
             <h2 class="titleProj">LSEPI Analysis</h2>
             <div class="contentProj">
@@ -271,7 +443,7 @@
                 <P class="detailsProj"><strong>About the project: </strong>Legal, Social, Ethical and Professional Issues (LSEPI) project analysis report. A class task that aims to test your understanding and ability to discuss legal, social, ethical and professional issues in a select project.</P>
                 <a class="linkProj" href="files/documents/portfolio/LSEPI Analysis - Sion PEPD.pdf">Click Here to access the written report</a>
             </div>
-            <hr class="lineProj">
+            <hr class="bLineProj">
         </div>
     </main>
     <!-- Footer -->
@@ -285,15 +457,18 @@
             </div>
             <div class="social">
                 <ul>
-                    <li><a href="https://github.com/SionGRG"><img src="files/images/icons/icon_Github.png" alt="My Github"></a></li>
-                    <li><a href="https://www.artstation.com/siongrg"><img src="files/images/icons/icon_Artstation.png" alt="My Artstation"></a></li>
-                    <li><a href="https://codepen.io/SionGRG"><img src="files/images/icons/icon_Codepen.png" alt="My Codepen"></a></li>
-                    <li><a href="https://www.linkedin.com/in/sion-iradukunda-a9a80a1b8/"><img src="files/images/icons/icon_Linkedin.png" alt="My Linkedin"></a></li>
+                    <li><a target="_blank" href="https://github.com/SionGRG"><img src="files/images/icons/icon_Github.png" alt="My Github"></a></li>
+                    <li><a target="_blank" href="https://www.artstation.com/siongrg"><img src="files/images/icons/icon_Artstation.png" alt="My Artstation"></a></li>
+                    <li><a target="_blank" href="https://codepen.io/SionGRG"><img src="files/images/icons/icon_Codepen.png" alt="My Codepen"></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/sion-iradukunda-a9a80a1b8/"><img src="files/images/icons/icon_Linkedin.png" alt="My Linkedin"></a></li>
                 </ul>
             </div>
             <p>Sion GREG &copy<span id="copyYear"></span></p>
         </div>        
     </footer>
+    <script src="script/jquery.min.js"></script>
+    <script src="script/bootstrap/bootstrap.min.js"></script>
     <script src="script/main.js"></script>
+    <script src="script/portfolio.js"></script>
 </body>
 </html>

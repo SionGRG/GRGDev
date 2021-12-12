@@ -38,27 +38,27 @@ main .bioContainer h2:before {
     margin: 10px 10%;
 }
 
-.accordion .card:not(:first-of-type):not(:last-of-type) {
+.accordion-item .accordion-item:not(:first-of-type):not(:last-of-type) {
     border-bottom: 0;
     border-radius: 0;
 }
   
-.accordion .card:not(:first-of-type) .card-header:first-child {
+.accordion-item .accordion-item:not(:first-of-type) .accordion-header:first-child {
     border-radius: 0;
 }
   
-.accordion .card:first-of-type {
+.accordion-item .accordion-item:first-of-type {
     border-bottom: 0;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
   
-.accordion .card:last-of-type {
+.accordion-item .accordion-item:last-of-type {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
 
-.card {
+.accordion-item {
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -72,7 +72,7 @@ main .bioContainer h2:before {
     border-radius: 0.25rem;
  }
 
- .card .card-header {
+ .accordion-item .accordion-header {
      padding: .75rem 1.25rem;
      margin-bottom: 0;
      background-color: rgba(40,40,40,.7);
@@ -80,24 +80,26 @@ main .bioContainer h2:before {
      text-align: center;
 }
 
-.card .card-header:first-child {
+.accordion-item .accordion-header:first-child {
     border-radius: calc(.25rem - 1px) calc(.25rem -1px) 0 0;
 }
 
-.card .card-header .card-link {
+.accordion-item .accordion-header .accordion-button {
+    background: none;
+    border: none;
     color: rgba(255, 0, 0, .7);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
 }
 
-.card .card-body {
+.accordion-item .accordion-body {
     ms-flex: 1 1 auto;
     flex: 1 1 auto;
     padding: 10px 0;
 }
 
-/* collapsing the cards */
+/* collapsing the accordions */
 .collapse:not(.show) {
     display: none;
 }

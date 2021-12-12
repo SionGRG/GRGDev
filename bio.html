@@ -39,17 +39,36 @@
     <!-- Website Main Content-->
     <main>
         <div class="bioContainer">
-            <p>A BSc Computer Science for Games student at Sheffield Hallam University looking to build a career in the video games industry. Captivated by narrative story-driven games and passionate about developing video games across all platforms with a focus on console gaming.</p>
+            <p>A Computer Science for Games student at Sheffield Hallam University looking to build a career in the video games industry. Captivated by narrative story-driven games and passionate about developing video games across all platforms with a focus on console gaming.</p>
             <h2>My CV</h2>
-            <div id="accordion">
-                <div class="card">
-                    <div class="card-header">
-                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
-                            My CV 2021
-                        </a>
+            <div class="accordion"  id="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header" id="heading3">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3" href="#collapse3">
+                            My CV 2022
+                        </button>
                     </div>
-                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                        <div class="card-body">
+                    <div id="collapse3" class="accordion-collapse collapse show" aria-labelledby="heading3" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <object data="files/documents/bio/Sion MyCV-2022.pdf" type="application/pdf" class="modal-content" id="pdfReader">
+                                <p>
+                                    It appears your Web browser is not configured to display PDF files. No worries, just <a href="files/documents/bio/Sion MyCV-2022.pdf">click here to Open PDF file.</a>
+                                </p>
+                            </object>
+                            <div class="CVLink">
+                                <a href="files/documents/bio/Sion MyCV-2022.pdf">Click Here to access the CV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" id="heading2">
+                        <button class="collapsed accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2" href="#collapse2">
+                            My CV 2021
+                        </button>
+                    </div>
+                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
+                        <div class="accordion-body">
                             <object data="files/documents/bio/Sion MyCV-2021.pdf" type="application/pdf" class="modal-content" id="pdfReader">
                                 <p>
                                     It appears your Web browser is not configured to display PDF files. No worries, just <a href="files/documents/bio/Sion MyCV-2021.pdf">click here to Open PDF file.</a>
@@ -61,14 +80,14 @@
                         </div>
                     </div>
                 </div>    
-                <div class="card">
-                    <div class="card-header">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                <div class="accordion-item">
+                    <div class="accordion-header" id="heading1">
+                        <button class="collapsed accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1" href="#collapse1">
                             My CV 2020
-                        </a>
+                        </button>
                     </div>
-                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                        <div class="card-body">
+                    <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordion">
+                        <div class="accordion-body">
                             <object data="files/documents/bio/Sion MyCV-2020.pdf" type="application/pdf" class="modal-content" id="pdfReader">
                                 <p>
                                     It appears your Web browser is not configured to display PDF files. No worries, just <a href="files/documents/bio/Sion MyCV-2020.pdf">click here to Open PDF file.</a>
@@ -95,10 +114,10 @@
             </div>
             <div class="social">
                 <ul>
-                    <li><a href="https://github.com/SionGRG"><img src="files/images/icons/icon_Github.png" alt="My Github"></a></li>
-                    <li><a href="https://www.artstation.com/siongrg"><img src="files/images/icons/icon_Artstation.png" alt="My Artstation"></a></li>
-                    <li><a href="https://codepen.io/SionGRG"><img src="files/images/icons/icon_Codepen.png" alt="My Codepen"></a></li>
-                    <li><a href="https://www.linkedin.com/in/sion-iradukunda-a9a80a1b8/"><img src="files/images/icons/icon_Linkedin.png" alt="My Linkedin"></a></li>
+                    <li><a target="_blank" href="https://github.com/SionGRG"><img src="files/images/icons/icon_Github.png" alt="My Github"></a></li>
+                    <li><a target="_blank" href="https://www.artstation.com/siongrg"><img src="files/images/icons/icon_Artstation.png" alt="My Artstation"></a></li>
+                    <li><a target="_blank" href="https://codepen.io/SionGRG"><img src="files/images/icons/icon_Codepen.png" alt="My Codepen"></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/sion-iradukunda-a9a80a1b8/"><img src="files/images/icons/icon_Linkedin.png" alt="My Linkedin"></a></li>
                 </ul>
             </div>
             <p>Sion GREG &copy<span id="copyYear"></span></p>
