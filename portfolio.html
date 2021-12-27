@@ -82,7 +82,7 @@
                             <!- images contents --
                             <h3>Images</h3>
                             <p>here are the project images</p>
-                            <!-- images carousel --
+                            <!- images carousel --
                             <div id="carouselIndicators" class="carousel slide pointer-event" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
                                   <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -116,9 +116,18 @@
                 <a class="linkProj" href="#">Click Here to Access the project / view the project on</a>
             </div>
             <hr class="bLineProj">
-        </div>  -->
-          
+        </div> 
+
+        <!- ==================================================================
+                                        PROJECT SEPARATION 
+            =================================================================== -->
+        
     <!-- Project content display default fomart -->   
+    
+        <!-- ==================================================================
+                                        PROJECT SEPARATION 
+            =================================================================== -->
+        
         <div class="containerProj">
             <hr class="tLineProj">
             <p class="typeProj">Personal</p>
@@ -226,6 +235,10 @@
             <hr class="bLineProj">
         </div>
 
+        <!-- ==================================================================
+                                        PROJECT SEPARATION 
+            =================================================================== -->
+        
         <div class="containerProj">
             <hr class="tLineProj">
             <p class="typeProj">Group Project</p>
@@ -254,6 +267,172 @@
             <hr class="bLineProj">
         </div>
 
+        <!-- ==================================================================
+                                        PROJECT SEPARATION 
+            =================================================================== -->
+        
+        <div class="containerProj">
+            <hr class="tLineProj">
+            <p class="typeProj">Math Application</p>
+            <h2 class="titleProj">3D House</h2>
+            <div class="contentProj">
+                <ul>
+                    <li class="briefProj">
+                        <p><span class="briefTitle">Role: </span>Applying matrices</p>
+                        <p><span class="briefTitle">Date: </span>November 2020</p>
+                        <p><span class="briefTitle">Tools: </span>Microsoft Excel, Microsoft Word</p>
+                        <p><span class="briefTitle">Techniques: </span>Matrices, 3D transformation, perspective projection</p>
+                    </li>
+                    <li class="imgProjHolder"><a href="#"><img rel="preload" src="files/images/portfolio/Project_thumbnail.jpg" alt="3D House rroject thumbnail" class="imgProj"></a></li>
+                </ul>
+                <P class="detailsProj"><strong>About the project: </strong>This project was exploring plotting a house in excel using 3D matrices, projecting the house, and applying transformation matrices to produce different effects on the house and to view it from different angles.</P>
+                <p class="detailsProj"><strong>My Involvement: </strong>I worked out the 3d coordinates of the house (on paper) and added the coordinates to a spreadsheet and then converted the coordinates into matrices. After that, I added a perspective projection matrix and then applied transformation matrices to the house's matrices.</p>
+                <!-- Project Gallery -->
+                <div class="galleryProj">
+                    <button onclick="showGallery('T3DHs_gBoxM')" class="gTitle">&#x25A6; Gallery &#x25A6;</button>
+                    <!-- Documents, Images and videos about the project -->
+                    <div id="T3DHs_gBoxM" class="gBox">
+                        <div class="gBoxTabs">
+                            <button class="gBoxTab" onclick="openTab(event, 'T3DHs_gBoxC1')">Documents</button>
+                            <button class="gBoxTab" onclick="openTab(event, 'T3DHs_gBoxC2')">Videos</button>
+                            <button class="gBoxTab" onclick="openTab(event, 'T3DHs_gBoxC3')">Images</button>
+                        </div>
+                        <div id="T3DHs_gBoxC1" class="gBoxContent">
+                            <!-- document contents -->
+                            <h3>Documents</h3>
+                            <p>here are the project documents</p>
+                            <div class="seal" onclick="this.parentElement.style.display='none'; closeTab()">&#x2259</div>
+                        </div>
+                        <div id="T3DHs_gBoxC2" class="gBoxContent">
+                            <!-- video contents -->
+                            <h3>Videos</h3>
+                            <p>here are the project videos</p>
+                            <div class="seal" onclick="this.parentElement.style.display='none'; closeTab()">&#x2259</div>
+                        </div>
+                        <div id="T3DHs_gBoxC3" class="gBoxContent">
+                            <!-- images contents -->
+                            <h3>Images</h3>
+                            <!-- images carousel -->
+                            <div id="T3DHs_carouselIndicators" class="carousel slide pointer-event" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#T3DHs_carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#T3DHs_carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#T3DHs_carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="imgCrsl" src="files/images/portfolio/Project_thumbnail.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/Project_thumbnail.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/Project_thumbnail.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#T3DHs_carouselIndicators" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true">&#x276E</span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#T3DHs_carouselIndicators" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true">&#x276F</span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                            <div class="seal" onclick="this.parentElement.style.display='none'; closeTab()">&#x2259</div>
+                        </div>
+                    </div>
+                </div>
+                <a class="linkProj" href="#">Click Here to Access the project / view the project on</a>
+            </div>
+            <hr class="bLineProj">
+        </div>
+
+        <!-- ==================================================================
+                                        PROJECT SEPARATION 
+            =================================================================== -->
+        
+        <div class="containerProj">
+            <hr class="tLineProj">
+            <p class="typeProj">Math Application</p>
+            <h2 class="titleProj">2D Vehicle</h2>
+            <div class="contentProj">
+                <ul>
+                    <li class="briefProj">
+                        <p><span class="briefTitle">Role: </span>Applying Matrices</p>
+                        <p><span class="briefTitle">Date: </span>November 2020</p>
+                        <p><span class="briefTitle">Tools: </span>Microsoft Execel, Desmos, Microsoft Word</p>
+                        <p><span class="briefTitle">Techniques: </span>Matrices, 2D transformation</p>
+                    </li>
+                    <li class="imgProjHolder"><a href="#"><img rel="preload" src="files/images/portfolio/Project_thumbnail.jpg" alt="2D Vehicle project thumbnail" class="imgProj"></a></li>
+                </ul>
+                <P class="detailsProj"><strong>About the project: </strong>This project was exploring plotting a vehicle in a spreadsheet using 2D matrices and applying transformation matrices to produce different effects on the vehicle.</P>
+                <p class="detailsProj"><strong>My Involvement: </strong>I plotted the vehicle's coordinates using Desmos (an advanced graphing calculator) and imported the coordinates into a spreadsheet and then converted the coordinates into matrices. After that, I applied transformation matrices to the vehicles matrices and used the obtained matrices to plot the vehicle on a graph in the spreadsheet.</p>
+                <!-- Project Gallery -->
+                <div class="galleryProj">
+                    <button onclick="showGallery('T2DVeh_gBoxM')" class="gTitle">&#x25A6; Gallery &#x25A6;</button>
+                    <!-- Documents, Images and videos about the project -->
+                    <div id="T2DVeh_gBoxM" class="gBox">
+                        <div class="gBoxTabs">
+                            <button class="gBoxTab" onclick="openTab(event, 'T2DVeh_gBoxC1')">Documents</button>
+                            <button class="gBoxTab" onclick="openTab(event, 'T2DVeh_gBoxC2')">Videos</button>
+                            <button class="gBoxTab" onclick="openTab(event, 'T2DVeh_gBoxC3')">Images</button>
+                        </div>
+                        <div id="T2DVeh_gBoxC1" class="gBoxContent">
+                            <!-- document contents -->
+                            <h3>Documents</h3>
+                            <p>here are the project documents</p>
+                            <div class="seal" onclick="this.parentElement.style.display='none'; closeTab()">&#x2259</div>
+                        </div>
+                        <div id="T2DVeh_gBoxC2" class="gBoxContent">
+                            <!-- video contents -->
+                            <h3>Videos</h3>
+                            <p>here are the project videos</p>
+                            <div class="seal" onclick="this.parentElement.style.display='none'; closeTab()">&#x2259</div>
+                        </div>
+                        <div id="T2DVeh_gBoxC3" class="gBoxContent">
+                            <!-- images contents -->
+                            <h3>Images</h3>
+                            <!-- images carousel -->
+                            <div id="T2DVeh_carouselIndicators" class="carousel slide pointer-event" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#T2DVeh_carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#T2DVeh_carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#T2DVeh_carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="imgCrsl" src="files/images/portfolio/Project_thumbnail.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/Project_thumbnail.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/Project_thumbnail.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#T2DVeh_carouselIndicators" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true">&#x276E</span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#T2DVeh_carouselIndicators" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true">&#x276F</span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                            <div class="seal" onclick="this.parentElement.style.display='none'; closeTab()">&#x2259</div>
+                        </div>
+                    </div>
+                </div>
+                <a class="linkProj" href="#">Click Here to Access the project / view the project on</a>
+            </div>
+            <hr class="bLineProj">
+        </div>
+
+        <!-- ==================================================================
+                                        PROJECT SEPARATION 
+            =================================================================== -->
+        
         <div class="containerProj">
             <hr class="tLineProj">
             <p class="typeProj">Group Project</p>
@@ -269,7 +448,7 @@
                     </li>
                     <li class="imgProjHolder"><a href="files/projects/portfolio/Drakaero Build ver1.2.rar"><img rel="preload" src="files/images/portfolio/Drakaero_Main_Menu.png" alt="Drakaero project thumbnail" class="imgProj"></a></li>
                 </ul>
-                <P class="detailsProj"><strong>About the game: </strong>Drakaero follows the story of a young woman, born from a long line of dragon riders, a rare commodity in the kingdom warriors, who are born with special gifts that allow them to tame and harness a dragon. They can also communicate and understand dragons. Even rarer, however, is one that is female. She joined the military with mixed reception, many were not confident that she could keep up with the high workload, not to mention her taboo birth brought her unnecessary harassment; but after many years of prejudice and judgement, she quickly climbed up the ranks to become one of the kingdoms most affluent warriors. Her prideful role at the top of the ranks now hangs in the balance, as the king has sent her on her most dangerous mission yet, to prove herself worthy of being one of the king’s guards. Some would call this mission suicide, but for her, it was the chance she needed to prove all that doubted her wrong and reclaim the pride of her race.</P>
+                <P class="detailsProj"><strong>About the game: </strong>Drakaero follows the story of a young woman, born from a long line of dragon riders, a rare commodity in the kingdom warriors, who are born with special gifts that allow them to tame and harness a dragon. They can also communicate and understand dragons. Even rarer, however, is one that is female. She joined the military with mixed reception, many were not confident that she could keep up with the high workload, not to mention her taboo birth brought her unnecessary harassment; but after many years of prejudice and judgement, she quickly climbed up the ranks to become one of the kingdoms most affluent warriors. Her prideful role at the top of the ranks now hangs in the balance, as the king has sent her on her most dangerous mission yet, to prove herself worthy of being one of the king's guards. Some would call this mission suicide, but for her, it was the chance she needed to prove all that doubted her wrong and reclaim the pride of her race.</P>
                 <p class="detailsProj"><strong>My Involvement: </strong>I was one of the two programmers on the Drakaero project. I was tasked with working on the enemies, their movement, shooting and health mechanics. After that, I worked on the sound programming implementing the theme song into the game. I also worked on the main menu user interface.</p>
                 <!-- <video class="video" controls poster="files/images/portfolio/Drakaero_Main_Menu.png">
                     <source src="files/videos/portfolio/Drakaero_Game_Demo.mp4" type="video/mp4">
@@ -282,6 +461,10 @@
             <hr class="bLineProj">
         </div>
 
+        <!-- ==================================================================
+                                        PROJECT SEPARATION 
+            =================================================================== -->
+        
         <div class="containerProj">
             <hr class="tLineProj">
             <p class="typeProj">Professional</p>
@@ -304,6 +487,10 @@
             <hr class="bLineProj">
         </div>
 
+        <!-- ==================================================================
+                                        PROJECT SEPARATION 
+            =================================================================== -->
+        
         <div class="containerProj">
             <hr class="tLineProj">
             <p class="typeProj">Personal</p>
@@ -325,6 +512,10 @@
             <hr class="bLineProj">
         </div>
 
+        <!-- ==================================================================
+                                        PROJECT SEPARATION 
+            =================================================================== -->
+        
         <div class="containerProj">
             <hr class="tLineProj">
             <p class="typeProj">Personal</p>
@@ -333,7 +524,7 @@
                 <ul>
                     <li class="briefProj">
                         <p><span class="briefTitle">Role: </span>Modelling a neon sign</p>
-                        <p><span class="briefTitle">Date: </span>Dec 2019</p>
+                        <p><span class="briefTitle">Date: </span>December 2019</p>
                         <p><span class="briefTitle">Tools: </span>Blender 2.81</p>
                         <p><span class="briefTitle">Techniques: </span>modelling, animation, rendering</p>
                     </li>
@@ -353,66 +544,9 @@
             <hr class="bLineProj">
         </div>
 
-        <div class="containerProj">
-            <hr class="tLineProj">
-            <p class="typeProj">Personal</p>
-            <h2 class="titleProj">Medusa</h2>
-            <div class="contentProj">
-                <ul>
-                    <li class="briefProj">
-                        <p><span class="briefTitle">Role: </span>drawing and painting</p>
-                        <p><span class="briefTitle">Date: </span>Feb 2019</p>
-                        <p><span class="briefTitle">Tools: </span>Acrylic paints, paint brushes, paper and pencils</p>
-                        <p><span class="briefTitle">Technique: </span>Acrylic painting</p>
-                    </li>
-                    <li class="imgProjHolder"><a href="https://www.artstation.com/artwork/mqLBmy"><img rel="preload" src="files/images/portfolio/medusa.jpg" alt="Medusa painting" class="imgProj"></a></li>
-                </ul>
-                <P class="detailsProj"><strong>About the project: </strong>An acrylic painting of the legend of Medusa. Medusa is sitting in front of a mirror staring at a reflection of herself before she turned into a gorgon. She is surrounded by statues of soldiers she has turned. The use of dull colours portrays how lonelyness and isolation, and the light highlights the reflection of the inocent girl she was.</P>
-                <a class="linkProj" href="https://www.artstation.com/artwork/mqLBmy">Click Here to view the painting on Artstation</a>
-            </div>
-            <hr class="bLineProj">
-        </div>
-
-        <div class="containerProj">
-            <hr class="tLineProj">
-            <p class="typeProj">Personal</p>
-            <h2 class="titleProj">Man Evolution</h2>
-            <div class="contentProj">
-                <ul>
-                    <li class="briefProj">
-                        <p><span class="briefTitle">Role: </span>drawing and painting</p>
-                        <p><span class="briefTitle">Date: </span>December 2018</p>
-                        <p><span class="briefTitle">Tools: </span>Acrylic paints, paint brushes, paper and pencils</p>
-                        <p><span class="briefTitle">Technique: </span>Acrylic painting</p>
-                    </li>
-                    <li class="imgProjHolder"><a href="https://www.artstation.com/artwork/lVLeaG"><img rel="preload" src="files/images/portfolio/man_evolution.jpg" alt="Man Evolution painting" class="imgProj"></a></li>
-                </ul>
-                <P class="detailsProj"><strong>About the project: </strong>An Acrylic painting portraying a hypothetical man evolution modal with 3 additional imaginary stages.</P>
-                <a class="linkProj" href="https://www.artstation.com/artwork/lVLeaG">Click Here to view the painting on Artstation</a>
-            </div>
-            <hr class="bLineProj">
-        </div>
-
-        <div class="containerProj">
-            <hr class="tLineProj">
-            <p class="typeProj">Personal</p>
-            <h2 class="titleProj">Boy to Butterfy Metamarphosis</h2>
-            <div class="contentProj">
-                <ul>
-                    <li class="briefProj">
-                        <p><span class="briefTitle">Role: </span>drawing and painting</p>
-                        <p><span class="briefTitle">Date: </span>May 2018</p>
-                        <p><span class="briefTitle">Tools: </span>water colours, water, paint brushes, water colour paper and pencils</p>
-                        <p><span class="briefTitle">Technique: </span>Water colour painting</p>
-                    </li>
-                    <li class="imgProjHolder"><a href="https://www.artstation.com/artwork/1nRbV8"><img rel="preload" src="files/images/portfolio/boy_2_butterfly.jpg" alt="Boy to Butterfy Metamarphosis" class="imgProj"></a></li>
-                </ul>
-                <P class="detailsProj"><strong>About the project: </strong>A water colour painting showing metamarphosis of a boy transforming into a butterfly hovering over water</P>
-                <a class="linkProj" href="https://www.artstation.com/artwork/1nRbV8">Click Here to view the painting on Artstation</a>
-            </div>
-            <hr class="bLineProj">
-        </div>
-        
+        <!-- ==================================================================
+                                        PROJECT SEPARATION 
+            =================================================================== -->
         
         <div class="containerProj">
             <hr class="tLineProj">
@@ -442,6 +576,151 @@
                 </ul>
                 <P class="detailsProj"><strong>About the project: </strong>Legal, Social, Ethical and Professional Issues (LSEPI) project analysis report. A class task that aims to test your understanding and ability to discuss legal, social, ethical and professional issues in a select project.</P>
                 <a class="linkProj" href="files/documents/portfolio/LSEPI Analysis - Sion PEPD.pdf">Click Here to access the written report</a>
+            </div>
+            <hr class="bLineProj">
+        </div>
+
+        <!-- ==================================================================
+                                        PROJECT SEPARATION 
+            =================================================================== -->
+        
+        <div class="containerProj">
+            <hr class="tLineProj">
+            <p class="typeProj">IB Internal Assessment</p>
+            <h2 class="titleProj">Math Exploration</h2>
+            <div class="contentProj">
+                <ul>
+                    <li class="briefProj">
+                        <p><span class="briefTitle">Role: </span>Writer and Explorer</p>
+                        <p><span class="briefTitle">Date: </span>April 2019</p>
+                        <p><span class="briefTitle">Tools: </span>Desmos, Microsoft Word</p>
+                        <p><span class="briefTitle">Techniques: </span>Writting, analysis, exploration, Math application, trigonometry, math functions, referencing</p>
+                    </li>
+                    <li class="imgProjHolder"><a href="#"><img rel="preload" src="files/images/portfolio/Project_thumbnail.jpg" alt="Math Exploration project thumbnail" class="imgProj"></a></li>
+                </ul>
+                <P class="detailsProj"><strong>About the project: </strong>This project was exploring the use of mathematical functions to sketch art. I used computer-aided design software - namely Desmos which is an advanced graphing calculator - to combine mathematical functions that make up different curved lines that will connect to form a figure of a camel.</P>
+                <!-- Project Gallery -->
+                <div class="galleryProj">
+                    <button onclick="showGallery('MEx_gBoxM')" class="gTitle">&#x25A6; Gallery &#x25A6;</button>
+                    <!-- Documents, Images and videos about the project -->
+                    <div id="MEx_gBoxM" class="gBox">
+                        <div class="gBoxTabs">
+                            <button class="gBoxTab" onclick="openTab(event, 'MEx_gBoxC1')">Documents</button>
+                            <button class="gBoxTab" onclick="openTab(event, 'MEx_gBoxC3')">Images</button>
+                        </div>
+                        <div id="MEx_gBoxC1" class="gBoxContent">
+                            <!-- document contents -->
+                            <h3>Documents</h3>
+                            <p>here are the project documents</p>
+                            <div class="seal" onclick="this.parentElement.style.display='none'; closeTab()">&#x2259</div>
+                        </div>
+                        <div id="MEx_gBoxC3" class="gBoxContent">
+                            <!-- images contents -->
+                            <h3>Images</h3>
+                            <!-- images carousel -->
+                            <div id="MEx_carouselIndicators" class="carousel slide pointer-event" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#MEx_carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#MEx_carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#MEx_carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="imgCrsl" src="files/images/portfolio/Project_thumbnail.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/Project_thumbnail.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="imgCrsl" src="files/images/portfolio/Project_thumbnail.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#MEx_carouselIndicators" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true">&#x276E</span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#MEx_carouselIndicators" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true">&#x276F</span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                            <div class="seal" onclick="this.parentElement.style.display='none'; closeTab()">&#x2259</div>
+                        </div>
+                    </div>
+                </div>
+                <a class="linkProj" href="#">Click Here to Access the project / view the project on</a>
+            </div>
+            <hr class="bLineProj">
+        </div>
+
+        <!-- ==================================================================
+                                        PROJECT SEPARATION 
+            =================================================================== -->
+        
+        <div class="containerProj">
+            <hr class="tLineProj">
+            <p class="typeProj">Personal</p>
+            <h2 class="titleProj">Medusa</h2>
+            <div class="contentProj">
+                <ul>
+                    <li class="briefProj">
+                        <p><span class="briefTitle">Role: </span>drawing and painting</p>
+                        <p><span class="briefTitle">Date: </span>February 2019</p>
+                        <p><span class="briefTitle">Tools: </span>Acrylic paints, paint brushes, paper and pencils</p>
+                        <p><span class="briefTitle">Technique: </span>Acrylic painting</p>
+                    </li>
+                    <li class="imgProjHolder"><a href="https://www.artstation.com/artwork/mqLBmy"><img rel="preload" src="files/images/portfolio/medusa.jpg" alt="Medusa painting" class="imgProj"></a></li>
+                </ul>
+                <P class="detailsProj"><strong>About the project: </strong>An acrylic painting of the legend of Medusa. Medusa is sitting in front of a mirror staring at a reflection of herself before she turned into a gorgon. She is surrounded by statues of soldiers she has turned. The use of dull colours portrays how lonelyness and isolation, and the light highlights the reflection of the inocent girl she was.</P>
+                <a class="linkProj" href="https://www.artstation.com/artwork/mqLBmy">Click Here to view the painting on Artstation</a>
+            </div>
+            <hr class="bLineProj">
+        </div>
+
+        <!-- ==================================================================
+                                        PROJECT SEPARATION 
+            =================================================================== -->
+        
+        <div class="containerProj">
+            <hr class="tLineProj">
+            <p class="typeProj">Personal</p>
+            <h2 class="titleProj">Man Evolution</h2>
+            <div class="contentProj">
+                <ul>
+                    <li class="briefProj">
+                        <p><span class="briefTitle">Role: </span>drawing and painting</p>
+                        <p><span class="briefTitle">Date: </span>December 2018</p>
+                        <p><span class="briefTitle">Tools: </span>Acrylic paints, paint brushes, paper and pencils</p>
+                        <p><span class="briefTitle">Technique: </span>Acrylic painting</p>
+                    </li>
+                    <li class="imgProjHolder"><a href="https://www.artstation.com/artwork/lVLeaG"><img rel="preload" src="files/images/portfolio/man_evolution.jpg" alt="Man Evolution painting" class="imgProj"></a></li>
+                </ul>
+                <P class="detailsProj"><strong>About the project: </strong>An Acrylic painting portraying a hypothetical man evolution modal with 3 additional imaginary stages.</P>
+                <a class="linkProj" href="https://www.artstation.com/artwork/lVLeaG">Click Here to view the painting on Artstation</a>
+            </div>
+            <hr class="bLineProj">
+        </div>
+
+        <!-- ==================================================================
+                                        PROJECT SEPARATION 
+            =================================================================== -->
+        
+        <div class="containerProj">
+            <hr class="tLineProj">
+            <p class="typeProj">Personal</p>
+            <h2 class="titleProj">Boy to Butterfy Metamarphosis</h2>
+            <div class="contentProj">
+                <ul>
+                    <li class="briefProj">
+                        <p><span class="briefTitle">Role: </span>drawing and painting</p>
+                        <p><span class="briefTitle">Date: </span>May 2018</p>
+                        <p><span class="briefTitle">Tools: </span>water colours, water, paint brushes, water colour paper and pencils</p>
+                        <p><span class="briefTitle">Technique: </span>Water colour painting</p>
+                    </li>
+                    <li class="imgProjHolder"><a href="https://www.artstation.com/artwork/1nRbV8"><img rel="preload" src="files/images/portfolio/boy_2_butterfly.jpg" alt="Boy to Butterfy Metamarphosis" class="imgProj"></a></li>
+                </ul>
+                <P class="detailsProj"><strong>About the project: </strong>A water colour painting showing metamarphosis of a boy transforming into a butterfly hovering over water</P>
+                <a class="linkProj" href="https://www.artstation.com/artwork/1nRbV8">Click Here to view the painting on Artstation</a>
             </div>
             <hr class="bLineProj">
         </div>
