@@ -2,7 +2,7 @@ main .aboutContainer {
     background: linear-gradient(to bottom, rgba(70, 70, 70, .9), rgba(25, 25, 25, .5));
     margin: 15px auto;
     padding: 3% 10px;
-    width: 70%;
+    max-width: 70%;
     box-shadow: 1px 5px 6px rgba(25,25,25,.7);
 }
 
@@ -14,6 +14,16 @@ main .aboutContainer h2 {
     color: rgba(255, 0, 0, .7);
     position: relative;
     margin: 10px 20%;
+}
+
+/* different displaying on small screens */
+@media only screen and (max-width: 850px){
+    main .aboutContainer {
+        max-width: 90vw;    
+    }
+    main .aboutContainer h2 {
+        margin: 10px 5%;
+    }
 }
 
 main .aboutContainer h2:before {

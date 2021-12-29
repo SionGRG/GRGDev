@@ -1,6 +1,7 @@
 /* Thanks for contacting us */
 .thxContainer {
-	max-width: 800px;
+	width: 95vw;
+	max-width: 850px;
 	height: auto;
 	background: #444;
 	margin: 50px auto;
@@ -29,7 +30,7 @@
 }
 
 /* For smaller screen devices */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
 	.thx {
 		font-size: 32px;
 		margin-bottom: 5px;
@@ -76,15 +77,18 @@
 }
 
 .button a:hover {
-	color: rgb(200,200,200);
+	color: rgba(200,200,200,1);
 }
 
 .button a span {
-    color: #777; 
+	color: rgba(200,200,200,.7);
 	cursor: pointer;
-  	display: inline-block;
-  	position: relative;
-  	transition: 0.5s;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.button a span:hover {
+	color: rgba(250,0,0,.8);
 }
 
 .button a span:after {

@@ -25,16 +25,6 @@ main .homeContainer .mylogo p {
     font-size: 22vh;
     text-align: center;
 }
-@media only screen and (max-width: 768px) {
-    /* For mobile devices and smaller screens */
-    main .homeContainer .mylogo {
-        padding: 5px 20px;
-    }
-    
-    main .homeContainer .mylogo p {
-        font-size: 48px;
-    }
-}
 
 /* Homepage container text */
 main .homeContainer h2 {
@@ -62,4 +52,19 @@ main .homeContainer p {
     padding: 20px 20%;
 }
 
-
+@media only screen and (max-width: 850px) {
+    /* For mobile devices and smaller screens */
+    main .homeContainer {
+        width: 90vw;    
+    }
+    main .homeContainer p {
+        padding: 20px 10%;    
+    }
+    main .homeContainer .mylogo {
+        padding: 5px 20px;
+    }
+    
+    main .homeContainer .mylogo p {
+        font-size: 84px;
+    }
+}

@@ -3,6 +3,15 @@ main .containerProj {
     width: 70%;
     padding: 0px 15%;
 }
+
+/* different displaying on small screens */
+@media only screen and (max-width: 850px){
+    main .containerProj {
+        width: 90%;
+        padding: 0px 5%;
+    }
+}
+
 main div hr {
     background-color: rgba(100,100,100,.7);
     display: block;
@@ -175,13 +184,27 @@ main div .contentProj .linkProj:hover {
     text-transform: uppercase;
     font-weight: 20;
     font-size: 28px;
-    width: 30%;
+    width: 90%;
     height: auto;
     color: rgba(255,0,0,0.6);
 }
 
 .contentProj .galleryProj .gTitle:hover {
     color: rgba(200,0,0,0.9);
+    animation-name: animGllry;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.contentProj .galleryProj .gTitle:active {
+    color: rgba(200,200,200,0.9);
+}
+
+@keyframes animGllry {
+    0%      {transform: translate(0px, 0px);}
+    25%     {transform: translate(0px, -5px);}
+    50%     {transform: translate(0px, 0px);}
+    75%     {transform: translate(0px, -5px);}
+    100%    {transform: translate(0px, 0px);}
 }
 
 /* Project Gallery Box  */
@@ -206,8 +229,9 @@ main div .contentProj .linkProj:hover {
     cursor: pointer;
     transition: 0.3s;
     font-size: 16px;
-    width: 200px;
-    height: auto;
+    width: 100%;
+    max-width: 200px;
+    height: 33%;
     text-transform: capitalize;
     background-color: rgba(80, 0, 0, 0.7);
     text-transform: uppercase;
@@ -1051,10 +1075,20 @@ main div .contentProj .video {
 .ytVideo {
     text-align: center;
     width: 70%;
-    height: 420px;
+    /* height: 420px; */
+    height: 60vh;
     padding: 3px 15%;
 }
 
+/* different displaying on small screens */
+@media only screen and (max-width: 850px){
+    .ytVideo {
+        width: 95%;
+        padding: 3px 2.5%;
+        height: 50vw;
+        max-height: 75vh;
+    }
+}
 /* LSEPI PDF reader*/
 #myThumbnail {
     border-radius: 2px;
@@ -1088,7 +1122,7 @@ main div .contentProj .video {
     display: block;
     width: 75vw;
     max-width: 100%;
-    height: auto;
+    height: 70vh;
     padding-bottom: 45px;
 }
 

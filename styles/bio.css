@@ -8,9 +8,7 @@ main .bioContainer {
 
 main .bioContainer p{
     text-align: justify;
-    margin: auto;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: auto 10%;
 }
 
 main .bioContainer h2 {
@@ -23,16 +21,6 @@ main .bioContainer h2 {
     margin: 10px 10%;
 }
 
-main .bioContainer h2:before {
-    content: '';
-    display: block;
-    height: 3px;
-    background: linear-gradient(to bottom, rgba(255, 0, 0, .7), rgba(255, 0, 0, .2));
-    position: absolute;
-    bottom: 0;
-    width: 50%;
-}
-
 /* Collapse content */
 #accordion {
     margin: 10px 10%;
@@ -42,17 +30,17 @@ main .bioContainer h2:before {
     border-bottom: 0;
     border-radius: 0;
 }
-  
+
 .accordion-item .accordion-item:not(:first-of-type) .accordion-header:first-child {
     border-radius: 0;
 }
-  
+
 .accordion-item .accordion-item:first-of-type {
     border-bottom: 0;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
-  
+
 .accordion-item .accordion-item:last-of-type {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -70,14 +58,14 @@ main .bioContainer h2:before {
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
- }
+}
 
- .accordion-item .accordion-header {
-     padding: .75rem 1.25rem;
-     margin-bottom: 0;
-     background-color: rgba(40,40,40,.7);
-     border-bottom: 2px solid rgba(0, 0, 0, 0.125);
-     text-align: center;
+.accordion-item .accordion-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(40,40,40,.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+    text-align: center;
 }
 
 .accordion-item .accordion-header:first-child {
@@ -110,7 +98,7 @@ main .bioContainer h2:before {
     overflow: hidden;
     transition: height 0.35s ease;
 }
- 
+
 @media screen and (prefers-reduced-motion: reduce) {
     .collapsing {
         transition: none;
@@ -148,4 +136,28 @@ main div .CVLink a {
 main div .CVLink a:hover {
     text-decoration: underline;
     color: rgba(255, 0, 0, .4);
+}
+
+/* different displaying on small screens */
+@media only screen and (max-width: 850px){
+    main .bioContainer {
+        width: 90%;
+    }
+    main .bioContainer p,
+    main .bioContainer h2{
+        margin: auto 5%;
+    }
+    main .bioContainer #accordion {
+        margin: 10px 5%;
+    }
+}
+
+main .bioContainer h2:before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, .7), rgba(255, 0, 0, .2));
+    position: absolute;
+    bottom: 0;
+    width: 50%;
 }

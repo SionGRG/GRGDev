@@ -1,14 +1,15 @@
 /* Contact Us */
 
 #contain {
-	max-width: 800px;
+	width: 95vw;
+	max-width: 850px;
 	height: auto;
 	background: rgba(65, 65, 65, .7);
-    margin: 20px auto;
-    margin-top: 45px;
+	margin: 20px auto;
+	margin-top: 45px;
 	box-sizing: border-box;
-    padding: 40px;
-    box-shadow: 0px 10px 7px rgba(25, 25, 25, .7);
+	padding: 40px;
+	box-shadow: 0px 10px 7px rgba(25, 25, 25, .7);
 }
 
     /* Fonts*/
