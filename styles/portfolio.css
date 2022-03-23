@@ -1095,6 +1095,43 @@ main div .contentProj .video {
     padding: 3px 15%;
 }
 
+/* Project Buttons*/
+.gBoxContent .projSection {
+
+}
+
+.gBoxContent .projSection button {
+  background-color: #111;
+  margin: 10px auto;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+}
+
+.gBoxContent .projSection button:hover {
+  background-image: linear-gradient(to top,rgba(100,0,0,.9), #111 20%);  
+}
+
+.gBoxContent .projSection button:active {
+  background-image: linear-gradient(to top, #111 ,rgba(100,0,0,.9) 20%);  
+}
+.gBoxContent .projSection button input {
+  background: none;
+  border: none;
+}
+
+.projViewGithub svg {
+  fill: #ccc;
+}
+
+.projViewGithub .svgGithubIcon {
+  vertical-align: calc(-75% - 1px);
+}
+
+.projDownload .projDownloadIcon {
+  vertical-align: calc(-75% - 1px);
+}
+
 /* different displaying on small screens */
 @media only screen and (max-width: 850px){
     .ytVideo {
