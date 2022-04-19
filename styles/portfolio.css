@@ -973,6 +973,7 @@ main div .contentProj .linkProj:hover {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
 @keyframes rsld {
     0%      {transform:translateX(0px); }
     25%     {transform:translateX(-2px); }
@@ -995,6 +996,7 @@ main div .contentProj .linkProj:hover {
     margin-left: 15%;
     list-style: none;
 }
+
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
