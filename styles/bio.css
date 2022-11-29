@@ -6,19 +6,18 @@ main .bioContainer {
     box-shadow: 1px 5px 6px rgba(25,25,25,.7);
 }
 
-main .bioContainer p{
+main .bioContainer p {
     text-align: justify;
     margin: auto 10%;
 }
 
-main .bioContainer h2 {
+main .bioContainer .accordion h2 {
     text-align: left;
     text-transform: uppercase;
-    color: rgba(200, 200, 200, .9);
     text-decoration: none;
     color: rgba(255, 0, 0, .7);
     position: relative;
-    margin: 10px 10%;
+    margin: 10px 0%;
 }
 
 /* Collapse content */
@@ -106,7 +105,7 @@ main .bioContainer h2 {
 }
 
 
-/* Modal Content (PDF Reader) */
+/* Modal Content (My CV) */
 .modal-content {
     margin: auto;
     display: block; 
@@ -121,6 +120,12 @@ main .bioContainer h2 {
         width: 95%;
         height: 900px;
     }
+}
+
+.EmbeddedDoc {
+    padding: 10px 5%;
+    width: 90%;
+    height: 85vh;
 }
 
 main div .CVLink {

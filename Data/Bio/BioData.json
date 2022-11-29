@@ -1,0 +1,46 @@
+{
+    "TechnicalSkills": [
+        {},
+        {}
+    ],
+    "SoftwareStack": [
+        {
+            "name": "Visual Studio",
+            "icon": "VSIcon.svg",
+            "class": "IDE"
+        },
+        {
+            "name": "Unreal Engine",
+            "icon": "UEIcon.svg",
+            "class": "GameEngine"
+        },
+        {
+            "name": "Unity Engine",
+            "icon": "UnityIcon.svg",
+            "class": "GameEngine"
+        },
+        {
+            "name": "Blender Engine",
+            "icon": "BlenderIcon.svg",
+            "class": "3DCreatinSuite"
+        }
+    ],
+    "Languages": [
+        {
+            "name": "English",
+            "icon": "EnglishIcon.png"
+        },
+        {
+            "name": "Kinyarwanda",
+            "icon": "KinyaIcon.png"
+        },
+        {
+            "name": "French",
+            "icon": "FrenchIcon.png"
+        },
+        {
+            "name": "Spanish",
+            "icon": "SpanishIcon.png"
+        }
+    ]
+}
