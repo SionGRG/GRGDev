@@ -1,4 +1,27 @@
+//fetch( '../Data/Bio/txt.json' )
+//const txt = '{"name":"John", "age":30, "city":"New York"}'
+
+LoadBioData().catch(function (err) {
+    // handle errors
+    console.log(err)
+});
+
+async function LoadBioData() {
+    // fetch the json file
+    const response = await fetch( '../Data/Bio/txt.json' )
+    const data = await response.json();
+    // Display the json data
+    document.getElementById("demo").innerHTML = data.name + ", " + data.age;
+}
+
+/*
 fetch( '../Data/Bio/txt.json' )
-const txt = '{"name":"John", "age":30, "city":"New York"}'
-const obj = JSON.parse(txt);
-document.getElementById("demo").innerHTML = obj.name + ", " + obj.age;
+.then(response => response.json())
+.then(function (data) {
+    // Display the json data
+    document.getElementById("demo").innerHTML = data.name + ", " + data.age;
+})
+.catch(function (err) {
+    // handle errors
+    console.log(err)
+}); */
