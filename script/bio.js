@@ -8,8 +8,11 @@ LoadBioData().catch(function (err) {
 
 async function LoadBioData() {
     // fetch the json file
-    // const response = await fetch( '../Data/Bio/txt.json' )
-    const response = await fetch( '../GRGDev/Data/Bio/txt.json' )
+    response = await (await fetch( '../Data/Bio/txt.json' )
+    .catch(async function (err) {
+        // For the github pages option
+        response = await fetch( '../GRGDev/Data/Bio/txt.json' )
+    }))
     const data = await response.json();
     // Display the json data
     document.getElementById("demo").innerHTML = data.name + ", " + data.age;
