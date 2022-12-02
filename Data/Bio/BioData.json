@@ -6,23 +6,27 @@
     "SoftwareStack": [
         {
             "name": "Visual Studio",
-            "icon": "VSIcon.svg",
-            "class": "IDE"
+            "icon": "VSIcon",
+            "class": "IDE",
+            "details": "..."
         },
         {
             "name": "Unreal Engine",
-            "icon": "UEIcon.svg",
-            "class": "GameEngine"
+            "icon": "UEIcon",
+            "class": "GameEngine",
+            "details": "..."
         },
         {
             "name": "Unity Engine",
-            "icon": "UnityIcon.svg",
-            "class": "GameEngine"
+            "icon": "UnityIcon",
+            "class": "GameEngine",
+            "details": "..."
         },
         {
-            "name": "Blender Engine",
-            "icon": "BlenderIcon.svg",
-            "class": "3DCreatinSuite"
+            "name": "Blender 3D",
+            "icon": "BlenderIcon",
+            "class": "3DCreatinSuite",
+            "details": "..."
         }
     ],
     "Languages": [
