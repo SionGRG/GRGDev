@@ -1,5 +1,5 @@
-//fetch( '../Data/Bio/txt.json' )
-//const txt = '{"name":"John", "age":30, "city":"New York"}'
+// Imports
+import {Grid_Cards} from './modules/grid-modules.js';
 
 LoadBioData().catch(function (err) {
     // handle errors
@@ -8,7 +8,7 @@ LoadBioData().catch(function (err) {
 
 async function LoadBioData() {
     // fetch the json file
-    response = await fetch( "../Data/Bio/BioData.json" )
+    let response = await fetch( "../Data/Bio/BioData.json" )
     if (response.status !== 200) {
         // For the github pages option
         response = await fetch( "../GRGDev/Data/Bio/BioData.json" );
@@ -22,13 +22,14 @@ async function LoadBioData() {
     //  Display the technical skills
 
     //  Display the software stack
-    let SW_Icon_Location = "files/images/bio/SWStack/";
-    let text_SWStack = "<div class='row c_SWStack'>";
-    for (let i = 0; i < data.SoftwareStack.length; i++) {
-        text_SWStack += "<div class='col " + data.SoftwareStack[i].class + "'><div class='card'><object class='card-img-top' data='" + SW_Icon_Location + data.SoftwareStack[i].icon + ".svg' alt='" + data.SoftwareStack[i].name + " icon'></object><div class='card-body'><h5 class='card-title'>" + data.SoftwareStack[i].name + "</h5><p class='card-text'>" + data.SoftwareStack[i].details + "</p></div></div></div>";
-    }
-    text_SWStack += "</div>";
-    document.getElementById("acr_SWStack").innerHTML = text_SWStack;
+    let SW_Grid = new Grid_Cards("files/images/bio/SWStack/", "row-cols-5 c_SWStack")
+    SW_Grid.UpdateElementsSVG(data.SoftwareStack);
+    SW_Grid.UpdateElementsIMG(data.SoftwareStack, "png");
+    SW_Grid.UpdateElementsIMG(data.SoftwareStack, "png");
+    SW_Grid.UpdateElementsIMG(data.SoftwareStack, "png");
+    SW_Grid.UpdateElementsIMG(data.SoftwareStack, "png");
+    SW_Grid.UpdateElementsIMG(data.SoftwareStack, "png");
+    SW_Grid.RenderOnId("acr_SWStack");
 
     //  Display the languages
     let text_lang = "<ul>";
