@@ -32,19 +32,19 @@
     "Languages": [
         {
             "name": "English",
-            "icon": "EnglishIcon.png"
+            "icon": "EnglishIcon"
         },
         {
             "name": "Kinyarwanda",
-            "icon": "KinyaIcon.png"
+            "icon": "KinyaIcon"
         },
         {
             "name": "French",
-            "icon": "FrenchIcon.png"
+            "icon": "FrenchIcon"
         },
         {
             "name": "Spanish",
-            "icon": "SpanishIcon.png"
+            "icon": "SpanishIcon"
         }
     ]
 }

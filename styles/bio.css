@@ -193,7 +193,7 @@ main .bioContainer h2:before {
         width: 100%;
         height: 100%;
     }
-        
+
     .row-cols-auto > * {
       flex: 0 0 auto;
       width: auto;
@@ -463,7 +463,7 @@ main .bioContainer h2:before {
             .card-group > .card:not(:first-child) .card-img-bottom,
           .card-group > .card:not(:first-child) .card-footer {
               border-bottom-left-radius: 0;
-            }                         
+            }
             .col {
               width: 25%;
               height: 100%;
@@ -489,4 +489,103 @@ main .bioContainer h2:before {
 
 #acr_SWStack {
     padding: 20px;
+}
+.g-0,
+.gx-0 {
+  --bs-gutter-x: 0;
+}
+
+.g-0,
+.gy-0 {
+  --bs-gutter-y: 0;
+}
+
+.g-1,
+.gx-1 {
+  --bs-gutter-x: 0.25rem;
+}
+
+.g-1,
+.gy-1 {
+  --bs-gutter-y: 0.25rem;
+}
+
+.g-2,
+.gx-2 {
+  --bs-gutter-x: 0.5rem;
+}
+
+.g-2,
+.gy-2 {
+  --bs-gutter-y: 0.5rem;
+}
+
+.g-3,
+.gx-3 {
+  --bs-gutter-x: 1rem;
+}
+
+.g-3,
+.gy-3 {
+  --bs-gutter-y: 1rem;
+}
+
+.g-4,
+.gx-4 {
+  --bs-gutter-x: 1.5rem;
+}
+
+.g-4,
+.gy-4 {
+  --bs-gutter-y: 1.5rem;
+}
+
+.g-5,
+.gx-5 {
+  --bs-gutter-x: 3rem;
+}
+
+.g-5,
+.gy-5 {
+  --bs-gutter-y: 3rem;
+}
+
+/* Languages */
+
+.c_Languages .col {
+  border: 2px solid rgba(255, 0, 0, 0);
+  background-color: #222;
+  width: 9.5vw;
+  margin: 1pc 2pc;
+  margin: 1pc 1.5vw;
+}
+.c_Languages .col:hover {
+  border: 2px solid rgba(255, 0, 0, 0.15);
+}
+.c_Languages .col div {
+  padding: auto;
+  text-align: center;
+}
+
+.c_Languages .col div img {
+  display: inline;
+  vertical-align: middle;
+  max-width: 40px;
+  width: 2.5rem;
+  height: auto;
+}
+
+.c_Languages .col div p {
+  display: inline;
+  text-align: center;
+  margin-left: 10px;
+  padding: 0;
+  text-transform: uppercase;
+  text-overflow: hidden;
+}
+
+@media (max-width: 800px) {
+  .c_Languages .col {
+    width: 40vw;
+  }
 }
