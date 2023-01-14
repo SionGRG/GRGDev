@@ -2,6 +2,14 @@
 var copyDate = new Date();
 document.getElementById("copyYear").innerHTML = copyDate.getFullYear();
 
+// display current year
+var crntDate = new Date();
+const query = document.getElementsByClassName("crntYear");
+for(let i = 0; i < query.length; i++ )
+{
+  query[i].innerHTML = crntDate.getFullYear();
+}
+
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 

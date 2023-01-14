@@ -23,7 +23,15 @@ export class Grid {
     }
 
     /* Add a list of items that have thumbnails in a grid 
-    * the image format can be an fomart that is compatible with the html "img" tag
+    */
+   CreateListElements(dataArray) {
+        for(let i = 0; i < dataArray.length; i++) {
+            this.m_Output += "<div class='col'><div><p>" + dataArray[i].name + "</p></div></div>";
+        }
+    }
+
+    /* Add a list of items that have thumbnails in a grid 
+     * the image format can be an fomart that is compatible with the html "img" tag
     */
    CreateListElementsIMG(dataArray, imgFomart) {
         for(let i = 0; i < dataArray.length; i++) {

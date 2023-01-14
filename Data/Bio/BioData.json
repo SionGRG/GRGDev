@@ -1,7 +1,101 @@
 {
+    "ProgrammingLanguages": [
+        {
+            "name": "C++",
+            "icon": "cpp_icon",
+            "details": "..."
+        },
+        {
+            "name": "C#",
+            "icon": "c_sharp_icon",
+            "details": "..."
+        },
+        {
+            "name": "JavaScript",
+            "icon": "js_icon",
+            "details": "..."
+        },
+        {
+            "name": "JSON",
+            "icon": "json_icon",
+            "details": "..."
+        },
+        {
+            "name": "HTML",
+            "icon": "html_icon",
+            "details": "..."
+        },
+        {
+            "name": "CSS",
+            "icon": "css_icon",
+            "details": "..."
+        },
+        {
+            "name": "PHP",
+            "icon": "php_icon",
+            "details": "..."
+        },
+        {
+            "name": "MySQL",
+            "icon": "mysql_icon",
+            "details": "..."
+        },
+        {
+            "name": "Python",
+            "icon": "python_icon",
+            "details": "..."
+        },
+        {
+            "name": "HLSL",
+            "icon": "hlsl_icon",
+            "details": "..."
+        }
+    ],
     "TechnicalSkills": [
-        {},
-        {}
+        {
+            "name": "Object-Oriented Programming",
+            "details": "..."
+        },
+        {
+            "name": "Procedural Programming",
+            "details": "..."
+        },
+        {
+            "name": "Multi-threaded Programming",
+            "details": "..."
+        },
+        {
+            "name": "Front-End Web Development",
+            "details": "..."
+        },
+        {
+            "name": "Back-End Web Development",
+            "details": "..."
+        },
+        {
+            "name": "3D Modeling",
+            "details": "..."
+        },
+        {
+            "name": "Photo Editing",
+            "details": "..."
+        },
+        {
+            "name": "Video Editing",
+            "details": "..."
+        },
+        {
+            "name": "Source Control with Git",
+            "details": "..."
+        },
+        {
+            "name": "Drawing",
+            "details": "..."
+        },
+        {
+            "name": "Painting",
+            "details": "..."
+        }
     ],
     "SoftwareStack": [
         {
