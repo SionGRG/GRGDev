@@ -100,26 +100,154 @@
     "SoftwareStack": [
         {
             "name": "Visual Studio",
-            "icon": "VSIcon",
+            "icon": "VS_icon",
             "class": "IDE",
             "details": "..."
         },
         {
             "name": "Unreal Engine",
-            "icon": "UEIcon",
+            "icon": "UE_icon",
             "class": "GameEngine",
             "details": "..."
         },
         {
             "name": "Unity Engine",
-            "icon": "UnityIcon",
+            "icon": "Unity_icon",
             "class": "GameEngine",
             "details": "..."
         },
         {
             "name": "Blender 3D",
-            "icon": "BlenderIcon",
-            "class": "3DCreatinSuite",
+            "icon": "Blender_icon",
+            "class": "3DCreationSuite",
+            "details": "..."
+        },
+        {
+            "name": "Visual Studio Code",
+            "icon": "VSCode_icon",
+            "class": "CodeEditor",
+            "details": "..."
+        },
+        {
+            "name": "GitHub",
+            "icon": "GitHub_icon",
+            "class": "SourceControl",
+            "details": "..."
+        },
+        {
+            "name": "Adobe Photoshop",
+            "icon": "Photoshop_icon",
+            "class": "SourceControl",
+            "details": "..."
+        },
+        {
+            "name": "Adobe Premiere Pro",
+            "icon": "PremierePro_icon",
+            "class": "SourceControl",
+            "details": "..."
+        },
+        {
+            "name": "Adobe XD",
+            "icon": "AdobeXd_icon",
+            "class": "SourceControl",
+            "details": "..."
+        },
+        {
+            "name": "MS Paint 3D",
+            "icon": "MSPaint3D_icon",
+            "class": "SourceControl",
+            "details": "..."
+        },
+        {
+            "name": "3DS Max",
+            "icon": "3DSMax_icon",
+            "class": "3DCreationSuite",
+            "details": "..."
+        },
+        {
+            "name": "Draw.io",
+            "icon": "Draw.io_icon",
+            "class": "3DCreationSuite",
+            "details": "..."
+        },
+        {
+            "name": "Desmos",
+            "icon": "Desmos_icon",
+            "class": "3DCreationSuite",
+            "details": "..."
+        },
+        {
+            "name": "MicroSoft Word",
+            "icon": "MSWord_icon",
+            "class": "MSOfficeSuite",
+            "details": "..."
+        },
+        {
+            "name": "MicroSoft Excel",
+            "icon": "MSExcel_icon",
+            "class": "MSOfficeSuite",
+            "details": "..."
+        },
+        {
+            "name": "MicroSoft PowerPoint",
+            "icon": "MSPowerpoint_icon",
+            "class": "MSOfficeSuite",
+            "details": "..."
+        },
+        {
+            "name": "MicroSoft Teams",
+            "icon": "MSTeams_icon",
+            "class": "VideoConferencing",
+            "details": "..."
+        },
+        {
+            "name": "Zoom",
+            "icon": "Zoom_icon",
+            "class": "VideoConferencing",
+            "details": "..."
+        }
+    ],
+    "Libraries&SDKs": [
+        {
+            "name": "DirectX 11",
+            "icon": "DX11_icon",
+            "class": "SDK",
+            "details": "..."
+        },
+        {
+            "name": "DirectX 12",
+            "icon": "DX12_icon",
+            "class": "SDK",
+            "details": "..."
+        },
+        {
+            "name": "PS4 SDK",
+            "icon": "PS4SDK_icon",
+            "class": "SDK",
+            "details": "..."
+        },
+        {
+            "name": "OpenGL",
+            "icon": "OpenGl_icon",
+            "class": "SDK",
+            "details": "..."
+        },
+        {
+            "name": "SFML",
+            "icon": "SFML_icon",
+            "class": "SDK",
+            "details": "..."
+        },
+        {
+            "name": "Bootstrap",
+            "icon": "Bootdtrap_icon",
+            "class": "WebLibrary",
+            "details": "..."
+        },
+        {
+            "name": "JQuery",
+            "icon": "JQuery_icon",
+            "class": "JSLibrary",
             "details": "..."
         }
     ],

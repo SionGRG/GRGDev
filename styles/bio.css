@@ -501,9 +501,6 @@ main .bioContainer h2:before {
     box-shadow: 0px 2px 8px rgba(255, 0, 0, 0.4);
 }
 
-#acr_SWStack {
-    padding: 20px;
-}
 .g-0,
 .gx-0 {
   --bs-gutter-x: 0;
@@ -645,6 +642,34 @@ background-color: rgba(255, 255, 255, 0.06);
 }
 
 #acr_TechSkills div .col div p {
+  text-align: center;
+}
+
+/* Languages */
+
+#acr_SWStack {
+  padding: 0px;
+}
+
+#acr_SWStack div .card {
+  background-color: rgba(10, 10, 10, .15);
+}
+
+#acr_SWStack div .card:hover {
+  background-color: rgba(100, 100, 100, .25);
+}
+
+#acr_SWStack div .card img {
+  padding: 2.5%;
+  width: 95%;
+}
+
+#acr_SWStack div .card .card-body {
+  border-top: 3px solid rgba(0, 0, 0, 0.5);
+  margin: auto 5%;
+}
+
+#acr_SWStack div .card .card-body p {
   text-align: center;
 }
 
