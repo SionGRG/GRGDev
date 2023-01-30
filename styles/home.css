@@ -6,7 +6,6 @@ main .homeContainer {
     width: 70%;
     box-shadow: 1px 5px 6px rgba(25,25,25,.7);
 }
-
 @font-face {
 	font-family: Algerian;
 	src: url("../fonts/algerian/algerian.eot?n1z373");
