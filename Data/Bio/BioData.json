@@ -102,153 +102,177 @@
             "name": "Visual Studio",
             "icon": "VS_icon",
             "class": "IDE",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": "2017, 2019 and 2022"
         },
         {
             "name": "Unreal Engine",
             "icon": "UE_icon",
             "class": "GameEngine",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": "4.x and 5.x"
         },
         {
             "name": "Unity Engine",
             "icon": "Unity_icon",
             "class": "GameEngine",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": "2018, 2019, 2020 and 2021"
         },
         {
             "name": "Blender 3D",
             "icon": "Blender_icon",
             "class": "3DCreationSuite",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": "2.79, 2.8x, 2.9x and 3.x"
         },
         {
             "name": "Visual Studio Code",
             "icon": "VSCode_icon",
             "class": "CodeEditor",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": ""
         },
         {
             "name": "GitHub",
             "icon": "GitHub_icon",
             "class": "SourceControl",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": "Web and Github Desktop"
         },
         {
             "name": "Adobe Photoshop",
             "icon": "Photoshop_icon",
-            "class": "SourceControl",
-            "details": "..."
+            "class": "PhotoDesignTool",
+            "dtTitle": "Versions",
+            "details": "2018 and 2023"
         },
         {
             "name": "Adobe Premiere Pro",
             "icon": "PremierePro_icon",
-            "class": "SourceControl",
-            "details": "..."
+            "class": "VideoEditor",
+            "dtTitle": "Versions",
+            "details": "2018 and 2023"
         },
         {
             "name": "Adobe XD",
             "icon": "AdobeXd_icon",
-            "class": "SourceControl",
-            "details": "..."
+            "class": "UI_UX_Design",
+            "dtTitle": "Versions",
+            "details": ""
         },
         {
             "name": "MS Paint 3D",
             "icon": "MSPaint3D_icon",
-            "class": "SourceControl",
-            "details": "..."
+            "class": "ImageEditing",
+            "dtTitle": "Versions",
+            "details": ""
         },
         {
             "name": "3DS Max",
             "icon": "3DSMax_icon",
             "class": "3DCreationSuite",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": "2020"
         },
         {
             "name": "Draw.io",
             "icon": "Draw.io_icon",
-            "class": "3DCreationSuite",
-            "details": "..."
+            "class": "FlowChartDiagramMaker",
+            "dtTitle": "Versions",
+            "details": ""
         },
         {
             "name": "Desmos",
             "icon": "Desmos_icon",
-            "class": "3DCreationSuite",
-            "details": "..."
+            "class": "GraphingTool",
+            "dtTitle": "Versions",
+            "details": ""
         },
         {
             "name": "MicroSoft Word",
             "icon": "MSWord_icon",
             "class": "MSOfficeSuite",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": ""
         },
         {
             "name": "MicroSoft Excel",
             "icon": "MSExcel_icon",
             "class": "MSOfficeSuite",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": ""
         },
         {
             "name": "MicroSoft PowerPoint",
             "icon": "MSPowerpoint_icon",
             "class": "MSOfficeSuite",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": ""
         },
         {
             "name": "MicroSoft Teams",
             "icon": "MSTeams_icon",
             "class": "VideoConferencing",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": ""
         },
         {
             "name": "Zoom",
             "icon": "Zoom_icon",
             "class": "VideoConferencing",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": ""
         }
     ],
-    "Libraries&SDKs": [
+    "LibrariesSDKs": [
         {
             "name": "DirectX 11",
             "icon": "DX11_icon",
             "class": "SDK",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": ""
         },
         {
             "name": "DirectX 12",
             "icon": "DX12_icon",
             "class": "SDK",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": ""
         },
         {
             "name": "PS4 SDK",
             "icon": "PS4SDK_icon",
             "class": "SDK",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": ""
         },
         {
             "name": "OpenGL",
-            "icon": "OpenGl_icon",
+            "icon": "OpenGL_icon",
             "class": "SDK",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": ""
         },
         {
             "name": "SFML",
             "icon": "SFML_icon",
             "class": "SDK",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": ""
         },
         {
             "name": "Bootstrap",
-            "icon": "Bootdtrap_icon",
+            "icon": "Bootstrap_icon",
             "class": "WebLibrary",
-            "details": "..."
+            "dtTitle": "Versions",
+            "details": "4.x and 5.x"
         },
         {
             "name": "JQuery",
             "icon": "JQuery_icon",
             "class": "JSLibrary",
-            "details": "..."
+            "details": ""
         }
     ],
     "Languages": [

@@ -1,5 +1,5 @@
 main .bioContainer {
-    background: linear-gradient(to bottom, rgba(70, 70, 70, .9), rgba(25, 25, 25, .5));
+    background: rgba(55, 55, 55, .7);
     margin: 15px auto;
     padding: 20px 10px;
     width: 70%;
@@ -645,32 +645,59 @@ background-color: rgba(255, 255, 255, 0.06);
   text-align: center;
 }
 
-/* Languages */
+/* Software Stack */
 
 #acr_SWStack {
   padding: 0px;
 }
 
-#acr_SWStack div .card {
+.card_v2 div .card {
   background-color: rgba(10, 10, 10, .15);
 }
 
-#acr_SWStack div .card:hover {
+.card_v2 div .card:hover {
   background-color: rgba(100, 100, 100, .25);
 }
 
-#acr_SWStack div .card img {
+.card_v2 div .card img {
   padding: 2.5%;
   width: 95%;
 }
 
-#acr_SWStack div .card .card-body {
+.card_v2 div .card .card-body {
   border-top: 3px solid rgba(0, 0, 0, 0.5);
   margin: auto 5%;
+  margin-bottom: 5px;
 }
 
-#acr_SWStack div .card .card-body p {
+.card_v2 div .card .card-body p {
   text-align: center;
+  font-size: 85%;
+  padding-top: 5px;
+}
+
+.card_v2 div .card .card-body {
+  text-align: center;
+}
+
+.card_v2 div .card .card-body .card-info {
+  font-size: 85%;
+  padding: 5px 15px;
+  color: #ffffff;
+  background-color: rgba(100, 100, 100, .7);
+  border: none;
+  border-radius: 7px;
+}
+
+.card_v2 div .card .card-body .card-info:hover {
+  background-color: rgba(155, 0, 0, .7);
+}
+
+.card_v2 div .card .card-body .card-info:active {
+  background-color: rgba(255, 0, 0, .7);
+}
+.card_v2 div .card .card-body .NoDetails {
+  padding-bottom: 26px;
 }
 
 /* Languages */

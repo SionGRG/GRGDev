@@ -31,11 +31,23 @@ async function LoadBioData() {
 
     //  Display the software stack
     let grid_SW = new Grid("files/images/bio/SWStack/", "row-cols-5 c_SWStack")
-    grid_SW.CreateCardElementsIMG(data.SoftwareStack, "png");
+    grid_SW.CreateCardElementsIMGPop(data.SoftwareStack, "png");
     grid_SW.RenderOnId("acr_SWStack");
+    
+    //  Display the libraries and SDKs
+    let grid_LibSDK = new Grid("files/images/bio/LibSDKs/", "row-cols-5 c_LibSDKs")
+    grid_LibSDK.CreateCardElementsIMGPop(data.LibrariesSDKs, "png");
+    grid_LibSDK.RenderOnId("acr_LibSDKs");
+    // grid_LibSDK.AllowPopovers();
 
     //  Display the languages
     let grid_Lang = new Grid("files/images/bio/Languages/", "row-cols-5 c_Languages");
     grid_Lang.CreateListElementsIMG(data.Languages, "png");
     grid_Lang.RenderOnId("acr_Lang");
+
+    // Enable popovers
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+    var popoverList = popoverTriggerList.map( function(popoverTrigger ) {
+        return new bootstrap.Popover(popoverTrigger);
+    });
 }

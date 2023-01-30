@@ -21,6 +21,20 @@ export class Grid {
             this.m_Output += "<div class='col " + dataArray[i].class + "'><div class='card'><img class='card-img-top' src='" + this.m_ThumbnailsLocation + dataArray[i].icon + "." + imgFomart + "' alt='" + dataArray[i].name + " icon'><div class='card-body'><h5 class='card-title'>" + dataArray[i].name + "</h5><p class='card-text'>" + dataArray[i].details + "</p></div></div></div>";
         }
     }
+    // With pop over
+    CreateCardElementsIMGPop(dataArray, imgFomart) {
+        for (let i = 0; i < dataArray.length; i++) {
+            this.m_Output += "<div class='col " + dataArray[i].class + "'><div class='card'><img class='card-img-top' src='" + this.m_ThumbnailsLocation + dataArray[i].icon + "." + imgFomart + "' alt='" + dataArray[i].name + " icon'><div class='card-body'><h5 class='card-title'>" + dataArray[i].name + "</h5>";
+            
+            if (dataArray[i].details != ""){
+                this.m_Output += " <button type='button' class='card-info btn btn-lg' data-bs-container='body' data-bs-toggle='popover'  data-bs-trigger='focus' data-bs-placement='bottom' title='" + dataArray[i].dtTitle + "' data-bs-content='" + dataArray[i].details +"'>View</button>";
+            } else{
+                this.m_Output += "<div class='NoDetails'></div>";
+            }
+            this.m_Output += "</div></div></div>";
+        }
+        this.AllowPopovers();
+    }
 
     /* Add a list of items that have thumbnails in a grid 
     */
@@ -43,5 +57,10 @@ export class Grid {
     RenderOnId(id_Name) {
         this.m_Output += "</div>";
         document.getElementById(id_Name).innerHTML = this.m_Output;
+    }
+
+    AllowPopovers()
+    {              
+
     }
 }
