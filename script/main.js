@@ -2,6 +2,14 @@
 var copyDate = new Date();
 document.getElementById("copyYear").innerHTML = copyDate.getFullYear();
 
+// display current year
+var crntDate = new Date();
+const query = document.getElementsByClassName("crntYear");
+for(let i = 0; i < query.length; i++ )
+{
+  query[i].innerHTML = crntDate.getFullYear();
+}
+
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 
@@ -18,25 +26,4 @@ function myFunction() {
   } else {
     navbar.classList.remove("stickyNavbar-menu");
   }
-}
-
-// Get the PDF modal
-var modal = document.getElementById("lsepi_myModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myThumbnail");
-var pdfModal = document.getElementById("pdfReader");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  pdfModal.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
 }

@@ -1,0 +1,296 @@
+{
+    "ProgrammingLanguages": [
+        {
+            "name": "C++",
+            "icon": "cpp_icon",
+            "details": "..."
+        },
+        {
+            "name": "C#",
+            "icon": "c_sharp_icon",
+            "details": "..."
+        },
+        {
+            "name": "JavaScript",
+            "icon": "js_icon",
+            "details": "..."
+        },
+        {
+            "name": "JSON",
+            "icon": "json_icon",
+            "details": "..."
+        },
+        {
+            "name": "HTML",
+            "icon": "html_icon",
+            "details": "..."
+        },
+        {
+            "name": "CSS",
+            "icon": "css_icon",
+            "details": "..."
+        },
+        {
+            "name": "PHP",
+            "icon": "php_icon",
+            "details": "..."
+        },
+        {
+            "name": "MySQL",
+            "icon": "mysql_icon",
+            "details": "..."
+        },
+        {
+            "name": "Python",
+            "icon": "python_icon",
+            "details": "..."
+        },
+        {
+            "name": "HLSL",
+            "icon": "hlsl_icon",
+            "details": "..."
+        }
+    ],
+    "TechnicalSkills": [
+        {
+            "name": "Object-Oriented Programming",
+            "details": "..."
+        },
+        {
+            "name": "Procedural Programming",
+            "details": "..."
+        },
+        {
+            "name": "Multi-threaded Programming",
+            "details": "..."
+        },
+        {
+            "name": "Front-End Web Development",
+            "details": "..."
+        },
+        {
+            "name": "Back-End Web Development",
+            "details": "..."
+        },
+        {
+            "name": "3D Modeling",
+            "details": "..."
+        },
+        {
+            "name": "Photo Editing",
+            "details": "..."
+        },
+        {
+            "name": "Video Editing",
+            "details": "..."
+        },
+        {
+            "name": "Source Control with Git",
+            "details": "..."
+        },
+        {
+            "name": "Drawing",
+            "details": "..."
+        },
+        {
+            "name": "Painting",
+            "details": "..."
+        }
+    ],
+    "SoftwareStack": [
+        {
+            "name": "Visual Studio",
+            "icon": "VS_icon",
+            "class": "IDE",
+            "dtTitle": "Versions",
+            "details": "2017, 2019 and 2022"
+        },
+        {
+            "name": "Unreal Engine",
+            "icon": "UE_icon",
+            "class": "GameEngine",
+            "dtTitle": "Versions",
+            "details": "4.x and 5.x"
+        },
+        {
+            "name": "Unity Engine",
+            "icon": "Unity_icon",
+            "class": "GameEngine",
+            "dtTitle": "Versions",
+            "details": "2018, 2019, 2020 and 2021"
+        },
+        {
+            "name": "Blender 3D",
+            "icon": "Blender_icon",
+            "class": "3DCreationSuite",
+            "dtTitle": "Versions",
+            "details": "2.79, 2.8x, 2.9x and 3.x"
+        },
+        {
+            "name": "Visual Studio Code",
+            "icon": "VSCode_icon",
+            "class": "CodeEditor",
+            "dtTitle": "Versions",
+            "details": ""
+        },
+        {
+            "name": "GitHub",
+            "icon": "GitHub_icon",
+            "class": "SourceControl",
+            "dtTitle": "Versions",
+            "details": "Web and Github Desktop"
+        },
+        {
+            "name": "Adobe Photoshop",
+            "icon": "Photoshop_icon",
+            "class": "PhotoDesignTool",
+            "dtTitle": "Versions",
+            "details": "2018 and 2023"
+        },
+        {
+            "name": "Adobe Premiere Pro",
+            "icon": "PremierePro_icon",
+            "class": "VideoEditor",
+            "dtTitle": "Versions",
+            "details": "2018 and 2023"
+        },
+        {
+            "name": "Adobe XD",
+            "icon": "AdobeXd_icon",
+            "class": "UI_UX_Design",
+            "dtTitle": "Versions",
+            "details": ""
+        },
+        {
+            "name": "MS Paint 3D",
+            "icon": "MSPaint3D_icon",
+            "class": "ImageEditing",
+            "dtTitle": "Versions",
+            "details": ""
+        },
+        {
+            "name": "3DS Max",
+            "icon": "3DSMax_icon",
+            "class": "3DCreationSuite",
+            "dtTitle": "Versions",
+            "details": "2020"
+        },
+        {
+            "name": "Draw.io",
+            "icon": "Draw.io_icon",
+            "class": "FlowChartDiagramMaker",
+            "dtTitle": "Versions",
+            "details": ""
+        },
+        {
+            "name": "Desmos",
+            "icon": "Desmos_icon",
+            "class": "GraphingTool",
+            "dtTitle": "Versions",
+            "details": ""
+        },
+        {
+            "name": "MicroSoft Word",
+            "icon": "MSWord_icon",
+            "class": "MSOfficeSuite",
+            "dtTitle": "Versions",
+            "details": ""
+        },
+        {
+            "name": "MicroSoft Excel",
+            "icon": "MSExcel_icon",
+            "class": "MSOfficeSuite",
+            "dtTitle": "Versions",
+            "details": ""
+        },
+        {
+            "name": "MicroSoft PowerPoint",
+            "icon": "MSPowerpoint_icon",
+            "class": "MSOfficeSuite",
+            "dtTitle": "Versions",
+            "details": ""
+        },
+        {
+            "name": "MicroSoft Teams",
+            "icon": "MSTeams_icon",
+            "class": "VideoConferencing",
+            "dtTitle": "Versions",
+            "details": ""
+        },
+        {
+            "name": "Zoom",
+            "icon": "Zoom_icon",
+            "class": "VideoConferencing",
+            "dtTitle": "Versions",
+            "details": ""
+        }
+    ],
+    "LibrariesSDKs": [
+        {
+            "name": "DirectX 11",
+            "icon": "DX11_icon",
+            "class": "SDK",
+            "dtTitle": "Versions",
+            "details": ""
+        },
+        {
+            "name": "DirectX 12",
+            "icon": "DX12_icon",
+            "class": "SDK",
+            "dtTitle": "Versions",
+            "details": ""
+        },
+        {
+            "name": "PS4 SDK",
+            "icon": "PS4SDK_icon",
+            "class": "SDK",
+            "dtTitle": "Versions",
+            "details": ""
+        },
+        {
+            "name": "OpenGL",
+            "icon": "OpenGL_icon",
+            "class": "SDK",
+            "dtTitle": "Versions",
+            "details": ""
+        },
+        {
+            "name": "SFML",
+            "icon": "SFML_icon",
+            "class": "SDK",
+            "dtTitle": "Versions",
+            "details": ""
+        },
+        {
+            "name": "Bootstrap",
+            "icon": "Bootstrap_icon",
+            "class": "WebLibrary",
+            "dtTitle": "Versions",
+            "details": "4.x and 5.x"
+        },
+        {
+            "name": "JQuery",
+            "icon": "JQuery_icon",
+            "class": "JSLibrary",
+            "details": ""
+        }
+    ],
+    "Languages": [
+        {
+            "name": "English",
+            "icon": "EnglishIcon"
+        },
+        {
+            "name": "Kinyarwanda",
+            "icon": "KinyaIcon"
+        },
+        {
+            "name": "French",
+            "icon": "FrenchIcon"
+        },
+        {
+            "name": "Spanish",
+            "icon": "SpanishIcon"
+        }
+    ]
+}
