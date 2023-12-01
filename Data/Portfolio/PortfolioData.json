@@ -1,0 +1,231 @@
+{
+    "PortfolioProjects": [
+        {
+            "Title": "Project Name",
+            "ID": "ProjectID01",
+            "Type": "Project Type",
+            "Info": {
+                "Brief": {
+                    "Client": "hhhhhhhhhhh",
+                    "Role": "hhhhhhhhhhh",
+                    "Date": "hhhhhhhhhhh",
+                    "Tools": [
+                        "Tool1",
+                        " Tool2",
+                        " Tool3"
+                    ],
+                    "Tech Stack": [
+                        "Tech1",
+                        " Tech2",
+                        " Tech3"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/Project_thumbnail.jpg",
+                        "HyperLink": "none"
+                    }
+                },
+                "Details": {
+                    "About the project": "HHHHH HHHHHH HHHHH HHHHHH HHHHH HHHHHHH HHH HHHH HH HHHHH HHH HHHHH HHH HH HHHH HH HHHHH HH HHHHHHH HHHHH HHHHH H HHHH HHHHH HHH HHHHH H HHHHH HHHH HHHHH HHHHHH HHHHHH HHHH HHHHHH HHHHH HH HHHHHH HHHHH HHHHH HHHHH HHH HHHH HHH H HHHH HHHHH HHH HHHHH HHHHHH HHHHHH HHHH HHHHH HHHHH.",
+                    "My Involvement": "HHHHH HHHHHH HHHHH HHHHHH HHHHH HHHHHHH HHH HHHH HH HHHHH HHH HHHHH HHH HH HHHH HH HHHHH HH HHHHHHH HHHHH HHHHH H HHHH HHHHH HHH HHHHH H HHHHH HHHH HHHHH HHHHHH HHHHHH HHHH HHHHHH HHHHH HH HHHHHH HHHHH HHHHH HHHHH HHH HHHH HHH H HHHH HHHHH HHH HHHHH HHHHHH HHHHHH HHHH HHHHH HHHHH.",
+                    "Note": "HHHHH HHHHHH HHHHH HHHHHH HHHHH HHHHHHH HHH HHHH HH HHHHH HHH HHHHH HHH HH HHHH HH HHHHH HH HHHHHHH HHHHH HHHHH H HHHH HHHHH HHH HHHHH H HHHHH HHHH HHHHH HHHHHH HHHHHH HHHH HHHHHH HHHHH HH HHHHHH HHHHH HHHHH HHHHH HHH HHHH HHH H HHHH HHHHH HHH HHHHH HHHHHH HHHHHH HHHH HHHHH HHHHH."
+                },
+                "Gallery": {
+                    "Documentation": [
+                        {
+                            "Type": "PDF",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID01", 
+                                "Brief": "Document Briefing", 
+                                "Link": "files/documents/portfolio/LSEPI Analysis - Sion PEPD.pdf",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        },
+                        {
+                            "Type": "DOC",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID02", 
+                                "Brief": "Document Briefing", 
+                                "Link": "https://onedrive.live.com/embed?cid=61906FFE109DC1A4&resid=61906FFE109DC1A4%218413&authkey=AI6dC7B_gbqqGzU&em=2",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        },
+                        {
+                            "Type": "XLSX",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID03", 
+                                "Brief": "Document Briefing", 
+                                "Link": "https://onedrive.live.com/embed?resid=61906FFE109DC1A4%218417&authkey=%21AIKMNetLlfLaBfY&em=2&wdAllowInteractivity=False&AllowTyping=True&ActiveCell=AK230&wdDownloadButton=True&wdInConfigurator=True",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        }
+                    ],
+                    "Videos": [
+                        {
+                            "Type": "YouTubeVideo",
+                            "Data": {
+                                "Name": "Video Name",
+                                "Link": "Video Link"
+                            }
+                        }
+                    ],
+                    "Images": [
+                        {
+                            "Name": "Image name 1",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Name": "Image name 2",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Name": "Image name 3",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Name": "Image name 4",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        }
+                    ],
+                    "Project": [
+                        {
+                            "Title": "Code",
+                            "Type": "Github",
+                            "Link": "Github link",
+                            "Note": "Disclaimer: HHHH HHHH"
+                        },
+                        {
+                            "Title": "Executable",
+                            "Type": "Download",
+                            "Link": "Download link",
+                            "Note": "Disclaimer: HHHH HHHH"
+                        }
+                    ]
+                }
+            }
+            
+        },
+        {
+            "Title": "Project Name",
+            "ID": "ProjectID02",
+            "Type": "Project Type",
+            "Info": {
+                "Brief": {
+                    "Client": "2hhhhhhhhhhh",
+                    "Role": "hhhhhhhhhhh",
+                    "Date": "hhhhhhhhhhh",
+                    "Tools": [
+                        "Tool1",
+                        " Tool2",
+                        " Tool3"
+                    ],
+                    "Tech Stack": [
+                        "Tech1",
+                        " Tech2",
+                        " Tech3"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/Project_thumbnail.jpg",
+                        "HyperLink": "none"
+                    }
+                },
+                "Details": {
+                    "About the project": "HHHHH HHHHHH HHHHH HHHHHH HHHHH HHHHHHH HHH HHHH HH HHHHH HHH HHHHH HHH HH HHHH HH HHHHH HH HHHHHHH HHHHH HHHHH H HHHH HHHHH HHH HHHHH H HHHHH HHHH HHHHH HHHHHH HHHHHH HHHH HHHHHH HHHHH HH HHHHHH HHHHH HHHHH HHHHH HHH HHHH HHH H HHHH HHHHH HHH HHHHH HHHHHH HHHHHH HHHH HHHHH HHHHH.",
+                    "My Involvement": "HHHHH HHHHHH HHHHH HHHHHH HHHHH HHHHHHH HHH HHHH HH HHHHH HHH HHHHH HHH HH HHHH HH HHHHH HH HHHHHHH HHHHH HHHHH H HHHH HHHHH HHH HHHHH H HHHHH HHHH HHHHH HHHHHH HHHHHH HHHH HHHHHH HHHHH HH HHHHHH HHHHH HHHHH HHHHH HHH HHHH HHH H HHHH HHHHH HHH HHHHH HHHHHH HHHHHH HHHH HHHHH HHHHH.",
+                    "Note": "HHHHH HHHHHH HHHHH HHHHHH HHHHH HHHHHHH HHH HHHH HH HHHHH HHH HHHHH HHH HH HHHH HH HHHHH HH HHHHHHH HHHHH HHHHH H HHHH HHHHH HHH HHHHH H HHHHH HHHH HHHHH HHHHHH HHHHHH HHHH HHHHHH HHHHH HH HHHHHH HHHHH HHHHH HHHHH HHH HHHH HHH H HHHH HHHHH HHH HHHHH HHHHHH HHHHHH HHHH HHHHH HHHHH."
+                },
+                "Gallery": {
+                    "Documentation": [
+                        {
+                            "Type": "PDF",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID01", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        },
+                        {
+                            "Type": "DOC",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID02", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        },
+                        {
+                            "Type": "XLSX",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID03", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        }
+                    ],
+                    "Videos": [
+                        {
+                            "Type": "YouTubeVideo",
+                            "Data": {
+                                "Name": "Video Name",
+                                "Link": "Video Link"
+                            }
+                        }
+                    ],
+                    "Images": [
+                        {
+                            "Name": "Image name 1",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Name": "Image name 2",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Name": "Image name 3",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Name": "Image name 4",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        }
+                    ],
+                    "Project": [
+                        {
+                            "Title": "Code",
+                            "Type": "Github",
+                            "Link": "Github link",
+                            "Note": "Disclaimer: HHHH HHHH"
+                        },
+                        {
+                            "Title": "Executable",
+                            "Type": "Download",
+                            "Link": "Download link",
+                            "Note": "Disclaimer: HHHH HHHH"
+                        }
+                    ]
+                }
+            }
+            
+        }
+    ]
+
+}

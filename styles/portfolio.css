@@ -1243,3 +1243,14 @@ main div .contentProj .video {
 .bLineProj {
     border-radius: 50%;
 }
+
+@keyframes up-down {
+  0% {
+    background-position: center top;
+  }
+  50% {
+    background-position: center bottom;
+  }
+  100% {
+    background-position: center top;
+  }
