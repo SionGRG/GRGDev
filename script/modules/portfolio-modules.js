@@ -52,7 +52,7 @@ export class ProjectCard {
             switch(key)
             {
                 case "Documentation":
-                    this.m_Output += '<h3>' + key + '</h3> <ul class="DocCards">';
+                    this.m_Output += '<h3>' + key + '</h3> <div class="horizontal"> <ul class="DocCards">';              
                     
                     // Display the document cards for all the documents 
                     for(let doc of galleryTabsArray[key]) {
@@ -60,6 +60,7 @@ export class ProjectCard {
                     }
 
                     this.m_Output += '</ul>';
+                    this.m_Output += '</div>';
 
                     // Displaying the document in a grid
                     /*

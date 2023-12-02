@@ -1,0 +1,12 @@
+.horizontal {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.horizontal > div { display: inline-block; float: none; }
+
+.horizontal > div:first-child { margin-left: 0; }
+
+p { white-space: normal; }
