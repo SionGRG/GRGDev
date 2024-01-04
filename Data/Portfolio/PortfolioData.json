@@ -73,25 +73,25 @@
                             "Type": "YouTubeVideo",
                             "Data": {
                                 "Name": "Video Name",
-                                "Link": "Video Link"
+                                "Link": "https://www.youtube.com/embed/Ca-woSSpGvw"
                             }
                         }
                     ],
                     "Images": [
                         {
-                            "Name": "Image name 1",
+                            "Tag": "Image name 1",
                             "Link": "files/images/portfolio/Project_thumbnail.jpg"
                         },
                         {
-                            "Name": "Image name 2",
+                            "Tag": "Image name 2",
                             "Link": "files/images/portfolio/Project_thumbnail.jpg"
                         },
                         {
-                            "Name": "Image name 3",
+                            "Tag": "Image name 3",
                             "Link": "files/images/portfolio/Project_thumbnail.jpg"
                         },
                         {
-                            "Name": "Image name 4",
+                            "Tag": "Image name 4",
                             "Link": "files/images/portfolio/Project_thumbnail.jpg"
                         }
                     ],
@@ -186,25 +186,32 @@
                             "Type": "YouTubeVideo",
                             "Data": {
                                 "Name": "Video Name",
-                                "Link": "Video Link"
+                                "Link": "https://www.youtube.com/embed/Ca-woSSpGvw"
+                            }
+                        },
+                        {
+                            "Type": "YouTubeVideo",
+                            "Data": {
+                                "Name": "Video Name",
+                                "Link": "https://www.youtube.com/embed/Ca-woSSpGvw"
                             }
                         }
                     ],
                     "Images": [
                         {
-                            "Name": "Image name 1",
+                            "Tag": "Image name 1",
                             "Link": "files/images/portfolio/Project_thumbnail.jpg"
                         },
                         {
-                            "Name": "Image name 2",
+                            "Tag": "Image name 2",
                             "Link": "files/images/portfolio/Project_thumbnail.jpg"
                         },
                         {
-                            "Name": "Image name 3",
+                            "Tag": "Image name 3",
                             "Link": "files/images/portfolio/Project_thumbnail.jpg"
                         },
                         {
-                            "Name": "Image name 4",
+                            "Tag": "Image name 4",
                             "Link": "files/images/portfolio/Project_thumbnail.jpg"
                         }
                     ],

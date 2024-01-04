@@ -75,6 +75,26 @@ export class ProjectCard {
                     
                     break;
 
+                case "Videos":
+                    this.m_Output += '<h3>' + key + '</h3> <div class="horizontal">';
+
+                    // Display the videos  
+                    for(let vid of galleryTabsArray[key]) {
+                        this.#Gallery_Video(vid.Type, vid.Data);
+                    }
+                    
+                    this.m_Output += '</div>';
+                    this.m_Output += '<div class="seal" onclick="this.parentElement.style.display=\'none\'; closeTab()">&#x2259</div>';
+                    break;
+
+                case "Images":
+                    this.m_Output += '<h3>' + key + '</h3>';
+                    this.#Gallery_ImageCarousel(this.m_ID, galleryTabsArray[key]);
+                    break;
+
+                case "Project":
+                    break;
+
                 default:
                     this.m_Output += '<!-- Invalid Content Tab selected -->';
                     break;
@@ -140,10 +160,54 @@ export class ProjectCard {
         }
 
         this.m_Output += '';
+        
+    }
     
-    }
+    #Gallery_ImageCarousel(carouselID, dataArray) {
+        /* images carousel */
+        // this.m_Output += '<img class="imgCrsl d-block w-100" src="' + dataArray[0].Link + '" alt="' + dataArray[0].Name + '">';
 
-    #Gallery_ImageSlider(dataArray) {
+        this.m_Output += '<div id="' + carouselID + '_carouselIndicators" class="carousel slide pointer-event" data-bs-ride="carousel">';
+        
+        // carousel-indicators
+
+        this.m_Output += '<div class="carousel-indicators">';
+        
+        for(let [index, key] of Object.entries(dataArray))
+        {
+            if (index != 0)
+            {
+                this.m_Output += '<button type="button" data-bs-target="#' + carouselID + '_carouselIndicators" data-bs-slide-to="' + index + '" aria-label="Slide ' + index+1 + '"></button>';
+            }
+            else
+            {
+                this.m_Output += '<button type="button" data-bs-target="#' + carouselID + '_carouselIndicators" data-bs-slide-to="' + index + '" class="active" aria-current="true" aria-label="Slide ' + index+1 + '"></button>';
+            }
+        }
+
+        this.m_Output += '</div>';
+        
+        // carousel-inner
+        this.m_Output += '<div class="carousel-inner">';
+        
+        for(let [index, key] of Object.entries(dataArray))
+        {
+            if (index != 0)
+            {
+                this.m_Output += '<div class="carousel-item"> <img class="imgCrsl d-block w-100" src="' + key.Link + '" alt="' + key.Tag + '"> </div>';
+            }
+            else 
+            {
+                this.m_Output += '<div class="carousel-item active"> <img class="imgCrsl d-block w-100" src="' + key.Link + '" alt="' + key.Tag + '"> </div>';
+            }
+        }
+        
+        this.m_Output += '</div>';
+        
+        this.m_Output += '<button class="carousel-control-prev" type="button" data-bs-target="#' + carouselID + '_carouselIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true">&#x276E</span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#' + carouselID + '_carouselIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true">&#x276F</span> <span class="visually-hidden">Next</span> </button>';
+        
+        this.m_Output += '</div>';
     }
+    
 }
 

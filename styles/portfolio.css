@@ -1078,7 +1078,7 @@ main div .contentProj .linkProj:hover {
 .imgCrsl {
     width: 90%;
     height: auto;
-    max-height: 480px;
+    max-height: 512px;
 }
 
 
@@ -1091,11 +1091,11 @@ main div .contentProj .video {
 }
 
 .ytVideo {
-    text-align: center;
+    align-self: center;
     width: 70%;
-    /* height: 420px; */
+    /* height: auto; */
     height: 60vh;
-    padding: 3px 15%;
+    padding: 3px 5%;
 }
 
 /* Project Buttons*/
