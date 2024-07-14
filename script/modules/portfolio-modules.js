@@ -151,7 +151,7 @@ export class ProjectCard {
         /* Switch between video types */
         switch (type) {
             case "YouTubeVideo":
-                this.m_Output += '<iframe class="ytVideo" src="' + data.Link + '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';                
+                this.m_Output += '<iframe class="ytVideo" src="' + data.Link + '?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';                
                 break;
                 
             default:

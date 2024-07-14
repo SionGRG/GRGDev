@@ -14,7 +14,7 @@
                         " Tool2",
                         " Tool3"
                     ],
-                    "Tech Stack": [
+                    "Techniques": [
                         "Tech1",
                         " Tech2",
                         " Tech3"
@@ -24,6 +24,7 @@
                     "Type" : "Picture",
                     "Data": {
                         "Link": "files/images/portfolio/Project_thumbnail.jpg",
+                        "Alt": "Alternative description",
                         "HyperLink": "none"
                     }
                 },
@@ -114,36 +115,1106 @@
             
         },
         {
-            "Title": "Project Name",
-            "ID": "ProjectID02",
-            "Type": "Project Type",
+            "Title": "Critter Chronicles",
+            "ID": "ProjCrtChr",
+            "Type": "Group Project",
             "Info": {
                 "Brief": {
-                    "Client": "2hhhhhhhhhhh",
-                    "Role": "hhhhhhhhhhh",
-                    "Date": "hhhhhhhhhhh",
+                    "Members": "One Game Designer, Two Game Artists and four Game Programmers",
+                    "Role": "Game Programmer",
+                    "Date": "May 2022",
                     "Tools": [
-                        "Tool1",
-                        " Tool2",
-                        " Tool3"
+                        "Microsoft Visual Studio 2017 & 2019",
+                        " PS4 SDK",
+                        " PS4 Dev Kits",
+                        " ORBIS Documentation",
+                        " Unity",
+                        " Visual Studio Code",
+                        " GitHub",
+                        " Trello",
+                        " Photoshop",
+                        " Blender",
+                        " Autodesk 3DS Max",
+                        " ZBrush"
                     ],
-                    "Tech Stack": [
-                        "Tech1",
-                        " Tech2",
-                        " Tech3"
+                    "Techniques": [
+                        "C++",
+                        " OpenGL",
+                        " C#",
+                        " JSON"
                     ]
                 },
                 "Thumbnail": {
                     "Type" : "Picture",
                     "Data": {
-                        "Link": "files/images/portfolio/Project_thumbnail.jpg",
+                        "Link": "files/images/portfolio/CritterChronicles_thumbnail.png",
+                        "Alt": "Critter Chronicles thumbnail",
                         "HyperLink": "none"
                     }
                 },
                 "Details": {
-                    "About the project": "HHHHH HHHHHH HHHHH HHHHHH HHHHH HHHHHHH HHH HHHH HH HHHHH HHH HHHHH HHH HH HHHH HH HHHHH HH HHHHHHH HHHHH HHHHH H HHHH HHHHH HHH HHHHH H HHHHH HHHH HHHHH HHHHHH HHHHHH HHHH HHHHHH HHHHH HH HHHHHH HHHHH HHHHH HHHHH HHH HHHH HHH H HHHH HHHHH HHH HHHHH HHHHHH HHHHHH HHHH HHHHH HHHHH.",
-                    "My Involvement": "HHHHH HHHHHH HHHHH HHHHHH HHHHH HHHHHHH HHH HHHH HH HHHHH HHH HHHHH HHH HH HHHH HH HHHHH HH HHHHHHH HHHHH HHHHH H HHHH HHHHH HHH HHHHH H HHHHH HHHH HHHHH HHHHHH HHHHHH HHHH HHHHHH HHHHH HH HHHHHH HHHHH HHHHH HHHHH HHH HHHH HHH H HHHH HHHHH HHH HHHHH HHHHHH HHHHHH HHHH HHHHH HHHHH.",
-                    "Note": "HHHHH HHHHHH HHHHH HHHHHH HHHHH HHHHHHH HHH HHHH HH HHHHH HHH HHHHH HHH HH HHHH HH HHHHH HH HHHHHHH HHHHH HHHHH H HHHH HHHHH HHH HHHHH H HHHHH HHHH HHHHH HHHHHH HHHHHH HHHH HHHHHH HHHHH HH HHHHHH HHHHH HHHHH HHHHH HHH HHHH HHH H HHHH HHHHH HHH HHHHH HHHHHH HHHHHH HHHH HHHHH HHHHH."
+                    "About the project": "This is an openworld exploration game where the player must investigate a section of a planet that has once been explored and find any creatures within that vicinity and take photographs of them so they can take it back to the command ship and decide from there if they are able to survive on that planet.<br> This game project was a prototype designed to run on the PlayStation 4 development kits built using a custom game engine built from the ground up by the programmers.",
+                    "My Involvement": "I was one of the programmers on this project. I worked on a couple of systems for our game engine and collaborated with the other team member on other systems. I mainly worked on the level editor, sound engine and game object importation."
+                },
+                "Gallery": {
+                    "Documentation": [
+                        {
+                            "Type": "DOC",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/ProjX_CritterChronicles/CrCh_Card_Doc01_thumbnail.png", 
+                                "Name": "Critter Chronicles Design Document", 
+                                "DocID": "DocID01", 
+                                "Brief": "A design document for the project containing the game concepts and more.", 
+                                "Link": "https://onedrive.live.com/embed?cid=61906FFE109DC1A4&amp;resid=61906FFE109DC1A4%218448&amp;authkey=AOFm6EqE6CajI2s&amp;em=2&amp;wdPrint=0&amp;wdEmbedCode=0",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        }
+                    ],
+                    "Videos": [
+                        {
+                            "Type": "YouTubeVideo",
+                            "Data": {
+                                "Name": "Critter Chronicles Showcase Demo",
+                                "Link": "https://www.youtube.com/embed/GJX_ipbD1Gc"
+                            }
+                        }
+                    ],
+                    "Images": [
+                        {
+                            "Tag": "Slide 01",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_01.png"
+                        },
+                        {
+                            "Tag": "Slide 02",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_02.png"
+                        },
+                        {
+                            "Tag": "Slide 03",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_03.png"
+                        },
+                        {
+                            "Tag": "Slide 04",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_04.png"
+                        },
+                        {
+                            "Tag": "Slide 05",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_05.png"
+                        },
+                        {
+                            "Tag": "Slide 06",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_06.png"
+                        },
+                        {
+                            "Tag": "Slide 07",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_07.png"
+                        },
+                        {
+                            "Tag": "Slide 08",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_08.png"
+                        },
+                        {
+                            "Tag": "Slide 09",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_09.png"
+                        },
+                        {
+                            "Tag": "Slide 10",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_10.png"
+                        },
+                        {
+                            "Tag": "Slide 11",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_11.png"
+                        },
+                        {
+                            "Tag": "Slide 12",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_12.png"
+                        },
+                        {
+                            "Tag": "Slide 13",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_13.png"
+                        },
+                        {
+                            "Tag": "Slide 14",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_14.png"
+                        },
+                        {
+                            "Tag": "Slide 15",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_15.png"
+                        },
+                        {
+                            "Tag": "Slide 16",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_16.png"
+                        },
+                        {
+                            "Tag": "Slide 17",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_17.png"
+                        },
+                        {
+                            "Tag": "Slide 18",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_18.png"
+                        },
+                        {
+                            "Tag": "Slide 19",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_19.png"
+                        },
+                        {
+                            "Tag": "Slide 20",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_20.png"
+                        },
+                        {
+                            "Tag": "Slide 21",
+                            "Link": "files/images/portfolio/ProjX_CritterChronicles/slides/slide_21.png"
+                        }
+                    ],
+                    "Project": [
+                        {
+                            "Title": "Notice",
+                            "Type": "Unavailable",
+                            "Link": "Download link",
+                            "Note": "Disclaimer: Due to the nature of the project the code is not available to share under the Academic Development Agreement (ADA) which does not permit me to share the code of the PS4 projects publicly."
+                        }
+                    ]
+                }
+            }            
+        },
+        {
+            "Title": "Volt Puzzle",
+            "ID": "ProjVlPzl",
+            "Type": "Personal",
+            "Info": {
+                "Brief": {
+                    "Role": "Game Developer",
+                    "Date": "May 2021",
+                    "Tools": [
+                        "Microsoft Visual Studio 2019",
+                        " Web browser (Microsoft Edge)",
+                        " Photoshop",
+                        " GitHub"
+                    ],
+                    "Techniques": [
+                        "C#",
+                        " .Net Core",
+                        " JavaScript",
+                        " MVC Framework",
+                        " HTML",
+                        " CSS",
+                        " Bootstrap",
+                        " JQuery"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/VoltPuzzle_thumbnail.png",
+                        "Alt": "Volt Puzzle project thumbnail",
+                        "HyperLink": "none"
+                    }
+                },
+                "Details": {
+                    "About the project": "This is a puzzle game where the player is tasked with connecting circuit nodes from the left (Charge Nodes) to the circuit nodes on the right (Receiver Nodes) to match the result to the target value before the time runs out. This game project was inspired by a particular section from the massively popular game GTA V online from their latest Cayo Perico update where the player is tasked with hacking a circuit box as part of their mission.",
+                    "My Involvement": "I was tasked with developing a web based game."
+                },
+                "Gallery": {
+                    "Documentation": [
+                        {
+                            "Type": "PDF",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID01", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        },
+                        {
+                            "Type": "DOC",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID02", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        },
+                        {
+                            "Type": "XLSX",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID03", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        }
+                    ],
+                    "Videos": [
+                        {
+                            "Type": "YouTubeVideo",
+                            "Data": {
+                                "Name": "Volt Puzzle Showcase Demo",
+                                "Link": "https://www.youtube.com/embed/bAu7itv0I4w"
+                            }
+                        }
+                    ],
+                    "Images": [
+                        {
+                            "Tag": "Volt Puzzle main menu screen image",
+                            "Link": "files/images/portfolio/ProjX_VoltPuzzle/01.png"
+                        },
+                        {
+                            "Tag": "Volt Puzzle nodes instructions screen image",
+                            "Link": "files/images/portfolio/ProjX_VoltPuzzle/01.png"
+                        },
+                        {
+                            "Tag": "Volt Puzzle target instructions screen image",
+                            "Link": "files/images/portfolio/ProjX_VoltPuzzle/03.png"
+                        },
+                        {
+                            "Tag": "Volt Puzzle Result instructions screen image",
+                            "Link": "files/images/portfolio/ProjX_VoltPuzzle/04.png"
+                        },
+                        {
+                            "Tag": "Volt Puzzle Timer instructions screen image",
+                            "Link": "files/images/portfolio/ProjX_VoltPuzzle/05.png"
+                        },
+                        {
+                            "Tag": "Volt Puzzle Matching (connecting nodes) instructions screen image",
+                            "Link": "files/images/portfolio/ProjX_VoltPuzzle/06.png"
+                        },
+                        {
+                            "Tag": "Volt Puzzle Resetting instructions screen image",
+                            "Link": "files/images/portfolio/ProjX_VoltPuzzle/07.png"
+                        },
+                        {
+                            "Tag": "Volt Puzzle Level selection screen image",
+                            "Link": "files/images/portfolio/ProjX_VoltPuzzle/08.png"
+                        },
+                        {
+                            "Tag": "Volt Puzzle gameplay screen image",
+                            "Link": "files/images/portfolio/ProjX_VoltPuzzle/09.png"
+                        },
+                        {
+                            "Tag": "Volt Puzzle gameover screen image",
+                            "Link": "files/images/portfolio/ProjX_VoltPuzzle/10.png"
+                        }
+                    ],
+                    "Project": [
+                        {
+                            "Title": "Code",
+                            "Type": "Github",
+                            "Link": "Github link",
+                            "Note": "Disclaimer: HHHH HHHH"
+                        },
+                        {
+                            "Title": "Executable",
+                            "Type": "Download",
+                            "Link": "Download link",
+                            "Note": "Disclaimer: HHHH HHHH"
+                        }
+                    ]
+                }
+            }            
+        },
+        {
+            "Title": "Space Shooter",
+            "ID": "ProjSpSh",
+            "Type": "Personal",
+            "Info": {
+                "Brief": {
+                    "Role": "Programmer",
+                    "Date": "May 2021",
+                    "Tools": [
+                        "Microsoft Visual Studio 2019"
+                    ],
+                    "Techniques": [
+                        "C++",
+                        " DirectX 11"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/SpaceShooter_thumbnail.png",
+                        "Alt": "A thumbnail for the SpaceShooter game",
+                        "HyperLink": "none"
+                    }
+                },
+                "Details": {
+                    "About the project": "This is a tech demo of a space shooter game where the player controls a ship and shoots down the asteroids that are falling from space. The demo also features controller and keyboard & mouse support for the ship controls.",
+                    "My Involvement": "I was tasked with developing a tech demo of a game using C++ and DirectX 11."
+                },
+                "Gallery": {
+                    "Documentation": [
+                        {
+                            "Type": "DOC",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/ProjX_SpaceShooter/SpSht_Card_Doc01_thumbnail.png", 
+                                "Name": "Space Shooter Design Document", 
+                                "DocID": "DocID01", 
+                                "Brief": "A design document for the project containing a flow chart and a test plan.", 
+                                "Link": "https://onedrive.live.com/embed?cid=61906FFE109DC1A4&amp;resid=61906FFE109DC1A4%218433&amp;authkey=ADi_xCFIEx-mWLU&amp;em=2&amp;wdEmbedCode=0&amp;wdPrint=0",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        }
+                    ],
+                    "Videos": [
+                        {
+                            "Type": "YouTubeVideo",
+                            "Data": {
+                                "Name": "Space Shooter Showcase Demo",
+                                "Link": "https://www.youtube.com/embed/J_jU8_k2yZU"
+                            }
+                        }
+                    ],
+                    "Images": [
+                        {
+                            "Tag": "Slide 01",
+                            "Link": "files/images/portfolio/ProjX_SpaceShooter/SpShtDm_01.png"
+                        },
+                        {
+                            "Tag": "Slide 02",
+                            "Link": "files/images/portfolio/ProjX_SpaceShooter/SpShtDm_02.png"
+                        },
+                        {
+                            "Tag": "Slide 03",
+                            "Link": "files/images/portfolio/ProjX_SpaceShooter/SpShtDm_03.png"
+                        },
+                        {
+                            "Tag": "Slide 04",
+                            "Link": "files/images/portfolio/ProjX_SpaceShooter/SpShtDm_04.png"
+                        },
+                        {
+                            "Tag": "Slide 05",
+                            "Link": "files/images/portfolio/ProjX_SpaceShooter/SpShtDm_05.png"
+                        },
+                        {
+                            "Tag": "Slide 06",
+                            "Link": "files/images/portfolio/ProjX_SpaceShooter/SpShtDm_06.png"
+                        },
+                        {
+                            "Tag": "Slide 07",
+                            "Link": "files/images/portfolio/ProjX_SpaceShooter/SpShtDm_07.png"
+                        },
+                        {
+                            "Tag": "Slide 08",
+                            "Link": "files/images/portfolio/ProjX_SpaceShooter/SpShtDm_08.png"
+                        }
+                    ],
+                    "Project": [
+                        {
+                            "Title": "Code",
+                            "Type": "Github",
+                            "Link": "https://github.com/SionGRG/Evidence/tree/Dev-SpaceShooter",
+                            "Note": ""
+                        },
+                        {
+                            "Title": "Executable",
+                            "Type": "Download",
+                            "Link": "https://drive.google.com/file/d/13lr4EP3fHAUW3KBYNfCRmkHWhvI2gGTV/view?usp=sharing",
+                            "Note": "Disclaimer: Only runs on PCs (no consoles or mobile)"
+                        }
+                    ]
+                }
+            }            
+        },
+        {
+            "Title": "Pong",
+            "ID": "ProjPong",
+            "Type": "Personal",
+            "Info": {
+                "Brief": {
+                    "Role": "Programmer",
+                    "Date": "April 2021",
+                    "Tools": [
+                        "Microsoft Visual Studio 2019",
+                        " Paint 3D"
+                    ],
+                    "Techniques": [
+                        "C++",
+                        " SFML Graphics Library"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/Pong_thumbnail.png",
+                        "Alt": "A thumbnail for the Pong Game",
+                        "HyperLink": "none"
+                    }
+                },
+                "Details": {
+                    "About the project": "This is a pong game where two players play against each other. The player on the left uses W and S keys to move up and down, and the player on the right uses Up and Down arrow keys to do the same. The first player to reach the score of 5 points wins the game.",
+                    "My Involvement": "I was tasked with developing a pong game using C++ and the SFML Graphics library."
+                },
+                "Gallery": {
+                    "Documentation": [
+                        {
+                            "Type": "DOC",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/ProjX_Pong/Pong_Card_Doc01_thumbnail.png", 
+                                "Name": "Pong Design Document", 
+                                "DocID": "DocID01", 
+                                "Brief": "A design document containing a UML diagram for the game, a flow chart and a test plan.", 
+                                "Link": "https://onedrive.live.com/embed?cid=61906FFE109DC1A4&amp;resid=61906FFE109DC1A4%218428&amp;authkey=AHFVxLcIrZyz0Nw&amp;em=2&amp;wdPrint=0&amp;wdEmbedCode=0"
+                            }
+                        }
+                    ],
+                    "Videos": [
+                        {
+                            "Type": "YouTubeVideo",
+                            "Data": {
+                                "Name": "Pong Showcase Demo",
+                                "Link": "https://www.youtube.com/embed/4raOStMMRbY"
+                            }
+                        }
+                    ],
+                    "Images": [
+                        {
+                            "Tag": "Slide 01",
+                            "Link": "files/images/portfolio/ProjX_Pong/PongDm_01.png"
+                        },
+                        {
+                            "Tag": "Slide 02",
+                            "Link": "files/images/portfolio/ProjX_Pong/PongDm_02.png"
+                        },
+                        {
+                            "Tag": "Slide 03",
+                            "Link": "files/images/portfolio/ProjX_Pong/PongDm_03.png"
+                        },
+                        {
+                            "Tag": "Slide 04",
+                            "Link": "files/images/portfolio/ProjX_Pong/PongDm_04.png"
+                        },
+                        {
+                            "Tag": "Slide 05",
+                            "Link": "files/images/portfolio/ProjX_Pong/PongDm_05.png"
+                        }
+                    ],
+                    "Project": [
+                        {
+                            "Title": "Code",
+                            "Type": "Github",
+                            "Link": "https://github.com/SionGRG/Evidence/tree/Dev-Pong",
+                            "Note": ""
+                        },
+                        {
+                            "Title": "Executable",
+                            "Type": "Download",
+                            "Link": "https://drive.google.com/file/d/1phwcnYaEOD2fz8dM3X7d6m0kg8posf1c/view?usp=sharing",
+                            "Note": "Disclaimer: Only runs on PCs (no consoles or mobile)"
+                        }
+                    ]
+                }
+            }            
+        },
+        {
+            "Title": "Goblin Rush",
+            "ID": "ProjGoblin",
+            "Type": "Group Project",
+            "Info": {
+                "Brief": {
+                    "Members": "One Game Designer, Two Game Artists and One Game Programmer",
+                    "Role": "Game Programmer",
+                    "Date": "February 2021",
+                    "Tools": [
+                        "Unreal Engine 4.26",
+                        " Microsoft Visual Studio 2019",
+                        " Autodesk 3DS Max",
+                        " Substance Painter",
+                        " Blender",
+                        " Photoshop",
+                        " Trello",
+                        " Discord",
+                        " GitHub",
+                        " Google Drive"
+                    ],
+                    "Techniques": [
+                        "C++",
+                        " Unreal Engine",
+                        " Unreal Blueprints"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/Goblin_Rush_Main_Menu.png",
+                        "Alt": "Goblin Rush project thumbnail",
+                        "HyperLink": "none"
+                    }
+                },
+                "Details": {
+                    "About the project": "Goblin Rush is a go-kart-style racing game inspired by the likes of the Mario kart series and fall guys. The game combines Mario Kart racing with fall guys physics and sees two players race against each other as goblins driving mine cart in a split-screen multiplayer style.",
+                    "My Involvement": "I was the programmer on the Goblin Rush project. I worked on the vehicle movement, the sound programming implementing the theme song into the game, the multiplayer element of the game. I also worked on the main menu and pause menu user interface."
+                },
+                "Gallery": {
+                    "Documentation": [
+                        {
+                            "Type": "PDF",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID01", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        },
+                        {
+                            "Type": "DOC",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID02", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        },
+                        {
+                            "Type": "XLSX",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID03", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        }
+                    ],
+                    "Videos": [
+                        {
+                            "Type": "YouTubeVideo",
+                            "Data": {
+                                "Name": "Goblin Rush Showcase Demo",
+                                "Link": "https://www.youtube.com/embed/qJLX8RQnJPA"
+                            }
+                        }
+                    ],
+                    "Images": [
+                        {
+                            "Tag": "Image name 1",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Tag": "Image name 2",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Tag": "Image name 3",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Tag": "Image name 4",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        }
+                    ],
+                    "Project": [
+                        {
+                            "Title": "Code",
+                            "Type": "Github",
+                            "Link": "Github link",
+                            "Note": "Disclaimer: HHHH HHHH"
+                        },
+                        {
+                            "Title": "Executable",
+                            "Type": "Download",
+                            "Link": "https://drive.google.com/file/d/1mQXMDGAun536-OlPyz10jFG_mC--Lrqo/view?usp=sharing",
+                            "Note": "Disclaimer: This is just a prototype."
+                        }
+                    ]
+                }
+            }            
+        },
+        {
+            "Title": "3D House",
+            "ID": "ProjT3DHS",
+            "Type": "Math Application",
+            "Info": {
+                "Brief": {
+                    "Role": "Applying Matrices",
+                    "Date": "November 2020",
+                    "Tools": [
+                        "Microsoft Excel",
+                        " Microsoft Word"
+                    ],
+                    "Techniques": [
+                        "Matrices",
+                        " 3D Transformation",
+                        " Perspective Projection"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/3DHouse_Thumbnail.png",
+                        "Alt": "3D House project thumbnail",
+                        "HyperLink": "none"
+                    }
+                },
+                "Details": {
+                    "About the project": "This project was exploring plotting a house in excel using 3D matrices, projecting the house, and applying transformation to produce different effects on the house and to view it from different angles.",
+                    "My Involvement": "I worked out the 3d coordinates of the house (on paper) and added the coordinates to a spreadsheet and then converted the coordinates into matrices. After that, I added a perspective projection matrix and then applied transformation matrices to the house's matrices."
+                },
+                "Gallery": {
+                    "Documentation": [
+                        {
+                            "Type": "XLSX",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/ProjX_3DHouse/3DHouse_Card_Doc01_Thumbnail.png", 
+                                "Name": "Project Worksheet", 
+                                "DocID": "DocID01", 
+                                "Brief": "The project worksheet for the 3D house modal.", 
+                                "Link": "https://onedrive.live.com/embed?resid=61906FFE109DC1A4%218418&authkey=%21AIWoum2jMkwcUVk&em=2&wdAllowInteractivity=False&AllowTyping=True&ActiveCell=AD195&wdDownloadButton=True&wdInConfigurator=True",
+                                "DownloadInstruction": "Macros are not supported on Excel Online (So no forms and buttons), You will need to downlad the file, open it offline and Enable Macros to use the buttons. <br> There's a download button on the document."
+                            }
+                        },
+                        {
+                            "Type": "DOC",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/ProjX_3DHouse/3DHouse_Card_Doc02_Thumbnail.png", 
+                                "Name": "Project Report", 
+                                "DocID": "DocID02", 
+                                "Brief": "Report outlining different components of the project.", 
+                                "Link": "https://onedrive.live.com/embed?cid=61906FFE109DC1A4&resid=61906FFE109DC1A4%218414&authkey=ALpGfbceB0Lux9A&em=2"
+                            }
+                        }
+                    ],
+                    "Videos": [
+                        {
+                            "Type": "YouTubeVideo",
+                            "Data": {
+                                "Name": "3D House Showcase",
+                                "Link": "https://www.youtube.com/embed/JLMLUWRTSSg"
+                            }
+                        }
+                    ],
+                    "Images": [
+                        {
+                            "Tag": "Slide 01",
+                            "Link": "files/images/portfolio/ProjX_3DHouse/3DHs_01.png"
+                        },
+                        {
+                            "Tag": "Slide 02",
+                            "Link": "files/images/portfolio/ProjX_3DHouse/3DHs_02.png"
+                        },
+                        {
+                            "Tag": "Slide 03",
+                            "Link": "files/images/portfolio/ProjX_3DHouse/3DHs_03.png"
+                        },
+                        {
+                            "Tag": "Slide 04",
+                            "Link": "files/images/portfolio/ProjX_3DHouse/3DHs_04.png"
+                        },
+                        {
+                            "Tag": "Slide 05",
+                            "Link": "files/images/portfolio/ProjX_3DHouse/3DHs_05.png"
+                        },
+                        {
+                            "Tag": "Slide 06",
+                            "Link": "files/images/portfolio/ProjX_3DHouse/3DHs_06.png"
+                        },
+                        {
+                            "Tag": "Slide 07",
+                            "Link": "files/images/portfolio/ProjX_3DHouse/3DHs_07.png"
+                        },
+                        {
+                            "Tag": "Slide 08",
+                            "Link": "files/images/portfolio/ProjX_3DHouse/3DHs_08.png"
+                        },
+                        {
+                            "Tag": "Slide 09",
+                            "Link": "files/images/portfolio/ProjX_3DHouse/3DHs_09.png"
+                        },
+                        {
+                            "Tag": "Slide 10",
+                            "Link": "files/images/portfolio/ProjX_3DHouse/3DHs_10.png"
+                        },
+                        {
+                            "Tag": "Slide 11",
+                            "Link": "files/images/portfolio/ProjX_3DHouse/3DHs_11.png"
+                        },
+                        {
+                            "Tag": "Slide 12",
+                            "Link": "files/images/portfolio/ProjX_3DHouse/3DHs_12.png"
+                        }
+                    ]
+                }
+            }            
+        },
+        {
+            "Title": "2D Vehicle",
+            "ID": "ProjT2DVeh",
+            "Type": "Math Application",
+            "Info": {
+                "Brief": {
+                    "Role": "Applying Matrices",
+                    "Date": "November 2020",
+                    "Tools": [
+                        "Microsoft Excel",
+                        " Desmos",
+                        " Microsoft Word"
+                    ],
+                    "Techniques": [
+                        "Matrices",
+                        " 2D Transformation"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/2DVehicle_thumbnail.png",
+                        "Alt": "2D Vehicle project thumbnail",
+                        "HyperLink": "none"
+                    }
+                },
+                "Details": {
+                    "About the project": "This project was exploring plotting a vehicle in a spreadsheet using 2D matrices and applying transformation matrices to produce different effects on the vehicle.",
+                    "My Involvement": "I plotted the vehicle's coordinates using Desmos (an advanced graphing calculator) and imported the coordinates into a spreadsheet and then converted the coordinates into matrices. After that, I applied transformation matrices to the vehicles matrices and used the obtained matrices to plot the vehicle on a graph in the spreadsheet."
+                },
+                "Gallery": {
+                    "Documentation": [
+                        {
+                            "Type": "XLSX",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/ProjX_2DVehicle/2DVehicle_Card_Doc01_thumbnail.png", 
+                                "Name": "Project Worksheet", 
+                                "DocID": "DocID01", 
+                                "Brief": "The project worksheet of the 2D vehicle modal.", 
+                                "Link": "https://onedrive.live.com/embed?resid=61906FFE109DC1A4%218417&authkey=%21AIKMNetLlfLaBfY&em=2&wdAllowInteractivity=False&AllowTyping=True&ActiveCell=AK230&wdDownloadButton=True&wdInConfigurator=True",
+                                "DownloadInstruction": "Download Document file here",
+                                "Note": "Macros are not supported on Excel Online (So no forms and buttons), You will need to downlad the file, open it offline and Enable Macros to use the buttons. <br> There's a download button on the document."
+                            }
+                        },
+                        {
+                            "Type": "DOC",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/ProjX_2DVehicle/2DVehicle_Card_Doc02_thumbnail.png", 
+                                "Name": "Project Report", 
+                                "DocID": "DocID02", 
+                                "Brief": "Report outlining different components of the project.", 
+                                "Link": "https://onedrive.live.com/embed?cid=61906FFE109DC1A4&resid=61906FFE109DC1A4%218413&authkey=AI6dC7B_gbqqGzU&em=2"
+                            }
+                        }
+                    ],
+                    "Videos": [
+                        {
+                            "Type": "YouTubeVideo",
+                            "Data": {
+                                "Name": "2D Vehicle Showcase",
+                                "Link": "https://www.youtube.com/embed/Ca-woSSpGvw"
+                            }
+                        }
+                    ],
+                    "Images": [
+                        {
+                            "Tag": "Slide 01",
+                            "Link": "files/images/portfolio/ProjX_2DVehicle/2DVeh_01.png"
+                        },
+                        {
+                            "Tag": "Slide 02",
+                            "Link": "files/images/portfolio/ProjX_2DVehicle/2DVeh_02.png"
+                        },
+                        {
+                            "Tag": "Slide 03",
+                            "Link": "files/images/portfolio/ProjX_2DVehicle/2DVeh_03.png"
+                        },
+                        {
+                            "Tag": "Slide 04",
+                            "Link": "files/images/portfolio/ProjX_2DVehicle/2DVeh_04.png"
+                        },
+                        {
+                            "Tag": "Slide 05",
+                            "Link": "files/images/portfolio/ProjX_2DVehicle/2DVeh_05.png"
+                        },
+                        {
+                            "Tag": "Slide 06",
+                            "Link": "files/images/portfolio/ProjX_2DVehicle/2DVeh_06.png"
+                        },
+                        {
+                            "Tag": "Slide 07",
+                            "Link": "files/images/portfolio/ProjX_2DVehicle/2DVeh_07.png"
+                        },
+                        {
+                            "Tag": "Slide 08",
+                            "Link": "files/images/portfolio/ProjX_2DVehicle/2DVeh_08.png"
+                        },
+                        {
+                            "Tag": "Slide 09",
+                            "Link": "files/images/portfolio/ProjX_2DVehicle/2DVeh_09.png"
+                        },
+                        {
+                            "Tag": "Slide 10",
+                            "Link": "files/images/portfolio/ProjX_2DVehicle/2DVeh_10.png"
+                        },
+                        {
+                            "Tag": "Slide 11",
+                            "Link": "files/images/portfolio/ProjX_2DVehicle/2DVeh_11.png"
+                        },
+                        {
+                            "Tag": "Slide 12",
+                            "Link": "files/images/portfolio/ProjX_2DVehicle/2DVeh_12.png"
+                        }
+                    ]
+                }
+            }            
+        },
+        {
+            "Title": "Drakaero",
+            "ID": "ProjDrak",
+            "Type": "Group Project",
+            "Info": {
+                "Brief": {
+                    "Members": "One Game Designer, Three Game Artists and Two Game Programmers",
+                    "Role": "Game Programmer",
+                    "Date": "April 2020",
+                    "Tools": [
+                        "Unity 2018",
+                        " ProtoShop",
+                        " GitHub"
+                    ],
+                    "Techniques": [
+                        "C#",
+                        " Unity Game Engine"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/Drakaero_Main_Menu.png",
+                        "alt": "Drakaero project thumbnail",
+                        "HyperLink": "none"
+                    }
+                },
+                "Details": {
+                    "About the project": "Drakaero follows the story of a young woman, born from a long line of dragon riders, a rare commodity in the kingdom warriors, who are born with special gifts that allow them to tame and harness a dragon. They can also communicate and understand dragons. Even rarer, however, is one that is female. She joined the military with mixed reception, many were not confident that she could keep up with the high workload, not to mention her taboo birth brought her unnecessary harassment; but after many years of prejudice and judgement, she quickly climbed up the ranks to become one of the kingdoms most affluent warriors. Her prideful role at the top of the ranks now hangs in the balance, as the king has sent her on her most dangerous mission yet, to prove herself worthy of being one of the king's guards. Some would call this mission suicide, but for her, it was the chance she needed to prove all that doubted her wrong and reclaim the pride of her race.",
+                    "My Involvement": "I was one of the two programmers on the Drakaero project. I was tasked with working on the enemies, their movement, shooting and health mechanics. After that, I worked on the sound programming implementing the theme song into the game. I also worked on the main menu user interface."
+                },
+                "Gallery": {
+                    "Documentation": [
+                        {
+                            "Type": "PDF",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID01", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        },
+                        {
+                            "Type": "DOC",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID02", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        },
+                        {
+                            "Type": "XLSX",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID03", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        }
+                    ],
+                    "Videos": [
+                        {
+                            "Type": "YouTubeVideo",
+                            "Data": {
+                                "Name": "Drakaero Gameplay Showcase",
+                                "Link": "https://www.youtube.com/embed/y7n6OVO_uTE"
+                            }
+                        }
+                    ],
+                    "Images": [
+                        {
+                            "Tag": "Image name 1",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Tag": "Image name 2",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Tag": "Image name 3",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Tag": "Image name 4",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        }
+                    ],
+                    "Project": [
+                        {
+                            "Title": "Game Demo",
+                            "Type": "Download",
+                            "Link": "https://drive.google.com/file/d/1_sGarbn5YMGFIk6-e_sBfu6GTpLWMxRR/view?usp=sharing",
+                            "Note": "Disclaimer: This is an early build concept and it does not include final pieces of the artists' work."
+                        }
+                    ]
+                }
+            }            
+        },
+        {
+            "Title": "Nicholas Paterson Art",
+            "ID": "ProjNPA",
+            "Type": "Professional",
+            "Info": {
+                "Brief": {
+                    "Client": "Nicholas Paterson",
+                    "Role": "Web Designer and Developer",
+                    "Date": "July 2019",
+                    "Tools": [
+                        "Sublime text 3",
+                        " Paint 3D",
+                        " Netlify",
+                        " GitHub"
+                    ],
+                    "Techniques": [
+                        "HTML",
+                        " CSS",
+                        " Bootstrap",
+                        " JavaScript",
+                        " PHP",
+                        " MySQL"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/npart_website.png",
+                        "HyperLink": "https://npart7.github.io/nicholaspatersonart.github.io/"
+                    }
+                },
+                "Details": {
+                    "About the project": "A website for a visual artist, to showcase his artworks. Mr Paterson mainly lives in Thailand, but when he had to travel for a job in Togo he was forced to leave many of his artwork in Thailand sice constantly moving them may cause damage to the artworks. The website will enable him to collect all his artworks together and post them online which allow people to access his artworks easily. It will be easier for him as well to access his artworks when he had travelled abroad.",
+                    "My Involvement": "I was tasked with designing, developing and publishing the website. I designed the website and showed the client to see the features he would like to add or remove. When the client was satisfied with the design, I moved on to implementation stage. I built the website and ocassionally showed my client the progress to see what he liked so far or what he didn't like. After the website was ready, I published it using Github and Netlify."
+                },
+                "Gallery": {
+                    "Documentation": [
+                        {
+                            "Type": "PDF",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID01", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        },
+                        {
+                            "Type": "DOC",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID02", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        },
+                        {
+                            "Type": "XLSX",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID03", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        }
+                    ],
+                    "Videos": [
+                        {
+                            "Type": "YouTubeVideo",
+                            "Data": {
+                                "Name": "Video Name",
+                                "Link": "https://www.youtube.com/embed/Ca-woSSpGvw"
+                            }
+                        },
+                        {
+                            "Type": "YouTubeVideo",
+                            "Data": {
+                                "Name": "Video Name",
+                                "Link": "https://www.youtube.com/embed/Ca-woSSpGvw"
+                            }
+                        }
+                    ],
+                    "Images": [
+                        {
+                            "Tag": "Image name 1",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Tag": "Image name 2",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Tag": "Image name 3",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Tag": "Image name 4",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        }
+                    ],
+                    "Project": [
+                        {
+                            "Title": "Code",
+                            "Type": "Github",
+                            "Link": "Github link",
+                            "Note": "Disclaimer: HHHH HHHH"
+                        },
+                        {
+                            "Title": "Visit the Website",
+                            "Type": "Website",
+                            "Link": "https://npart7.github.io/nicholaspatersonart.github.io/"
+                        }
+                    ]
+                }
+            }            
+        },
+        {
+            "Title": "Project Porticullis",
+            "ID": "ProjPortcu",
+            "Type": "Uni Project",
+            "Info": {
+                "Brief": {
+                    "Role": "Modelling and animating assets and exporting them into Unreal Engine 4",
+                    "Date": "December 2019",
+                    "Tools": [
+                        "3Ds Max 2018",
+                        " Unreal Engine 4"
+                    ],
+                    "Techniques": [
+                        "Modelling",
+                        " Animation",
+                        " Unreal Blueprints"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/Project_Porticullis.png",
+                        "HyperLink": "none"
+                    }
+                },
+                "Details": {
+                    "About the project": "This was a class project exploring modelling and animating game assets in 3ds Max and exporting the assets into Unreal Engine 4.",
+                    "My Involvement": "I modelled a medieval porticullis and the wheel used to open the porticullis gate using 3ds Max 2018, then exported the assets into unreal engine 4."
                 },
                 "Gallery": {
                     "Documentation": [
@@ -227,6 +1298,437 @@
                             "Type": "Download",
                             "Link": "Download link",
                             "Note": "Disclaimer: HHHH HHHH"
+                        }
+                    ]
+                }
+            }            
+        },
+        {
+            "Title": "A personal Neon Sign project in Blender 3D",
+            "ID": "NeonSign",
+            "Type": "3D Model",
+            "Info": {
+                "Brief": {
+                    "Role": "Modelling a neon sign",
+                    "Date": "December 2019",
+                    "Tools": [
+                        "Blender 2.81"
+                    ],
+                    "Techniques": [
+                        "Modelling",
+                        " Animation",
+                        " Texturing",
+                        " Rendering"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/neonSign_poster.jpg",
+                        "HyperLink": "none"
+                    }
+                },
+                "Details": {
+                    "About the project": "This project was exploring modelling neon signs and rendering using blender's cycle engine in blender 2.81.",
+                    "My Involvement": "I modelled the neon sign using blender 2.81 and rendered an animation using Blender's cycle engine and made a video usign Blender video editting tool."
+                },
+                "Gallery": {
+                    "Documentation": [
+                        {
+                            "Type": "PDF",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID01", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        },
+                        {
+                            "Type": "DOC",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID02", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        },
+                        {
+                            "Type": "XLSX",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/Project_thumbnail.jpg", 
+                                "Name": "Document name", 
+                                "DocID": "DocID03", 
+                                "Brief": "Document Briefing", 
+                                "Link": "Document Link",
+                                "DownloadInstruction": "Download Document file here"
+                            }
+                        }
+                    ],
+                    "Videos": [
+                        {
+                            "Type": "YouTubeVideo",
+                            "Data": {
+                                "Name": "SionGRG Neon Sign",
+                                "Link": "https://www.youtube.com/embed/goepUbrTN0Y"
+                            }
+                        }
+                    ],
+                    "Images": [
+                        {
+                            "Tag": "Image name 1",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Tag": "Image name 2",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Tag": "Image name 3",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        },
+                        {
+                            "Tag": "Image name 4",
+                            "Link": "files/images/portfolio/Project_thumbnail.jpg"
+                        }
+                    ],
+                    "Project": [
+                        {
+                            "Title": "Code",
+                            "Type": "Github",
+                            "Link": "Github link",
+                            "Note": "Disclaimer: HHHH HHHH"
+                        },
+                        {
+                            "Title": "Executable",
+                            "Type": "Download",
+                            "Link": "Download link",
+                            "Note": "Disclaimer: HHHH HHHH"
+                        }
+                    ]
+                }
+            }            
+        },
+        {
+            "Title": "LSEPI Analysis",
+            "ID": "LsepiAn",
+            "Type": "Written Tast",
+            "Info": {
+                "Brief": {
+                    "Role": "Writer",
+                    "Date": "November 2019",
+                    "Tools": [
+                        "Microsoft Word"
+                    ],
+                    "Techniques": [
+                        "Writting",
+                        " Critical Analysis",
+                        " Discussing",
+                        " and Referencing"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/LSEPI_thumbnail.png",
+                        "HyperLink": "https://www.desmos.com/calculator/ypwiwc6q7e"
+                    }
+                },
+                "Details": {
+                    "About the project": "Legal, Social, Ethical and Professional Issues (LSEPI) project analysis report. A class task that aims to test your understanding and ability to discuss legal, social, ethical and professional issues in a select project."
+                },
+                "Gallery": {
+                    "Documentation": [
+                        {
+                            "Type": "PDF",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/LSEPI_thumbnail.png", 
+                                "Name": "LSEPI Analysis Report", 
+                                "DocID": "LsepiRep", 
+                                "Brief": "LSEPI project analysis report", 
+                                "Link": "files/documents/portfolio/LSEPI Analysis - Sion PEPD.pdf",
+                                "DownloadInstruction": " If you can't see the PDF files, please click the download button. Thanks!:)"
+                            }
+                        }
+                    ]
+                }
+            }            
+        },
+        {
+            "Title": "Math Exploration",
+            "ID": "MathExp",
+            "Type": "IB Internal Assessment",
+            "Info": {
+                "Brief": {
+                    "Role": "Writer and Explorer",
+                    "Date": "April 2019",
+                    "Tools": [
+                        "Desmos",
+                        " Microsoft Word"
+                    ],
+                    "Techniques": [
+                        "Writting",
+                        " Analysis",
+                        " Exploration",
+                        " Math Application",
+                        " Trigonometry",
+                        " Math Functions",
+                        " and Referencing"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/MathExploration_thumbnail.png",
+                        "HyperLink": "https://www.desmos.com/calculator/ypwiwc6q7e"
+                    }
+                },
+                "Details": {
+                    "About the project": "This project was exploring the use of mathematical functions to sketch art. I used computer-aided design software - namely Desmos which is an advanced graphing calculator - to combine mathematical functions that make up different curved lines that will connect to form a figure of a camel."
+                },
+                "Gallery": {
+                    "Documentation": [
+                        {
+                            "Type": "DOC",
+                            "Data": {
+                                "Thumbnail": "files/images/portfolio/ProjX_MathExp/MEx_Card_Doc02_thumbnail.png", 
+                                "Name": "Math Exploration", 
+                                "DocID": "DocID02", 
+                                "Brief": "Deriving mathematical functions to draw a camel using a graphics software.", 
+                                "Link": "https://onedrive.live.com/embed?cid=61906FFE109DC1A4&resid=61906FFE109DC1A4%218409&authkey=ABiHhQMN9l1mCfY&em=2",
+                                "DownloadInstruction": ""
+                            }
+                        }
+                    ],
+                    "Images": [
+                        {
+                            "Tag": "Camel's Full Figure",
+                            "Link": "files/images/portfolio/ProjX_MathExp/MEx_01.png"
+                        },
+                        {
+                            "Tag": "Camel's Head",
+                            "Link": "files/images/portfolio/ProjX_MathExp/MEx_02.png"
+                        },
+                        {
+                            "Tag": "Camel's Neck",
+                            "Link": "files/images/portfolio/ProjX_MathExp/MEx_03.png"
+                        },
+                        {
+                            "Tag": "Camel's Back",
+                            "Link": "files/images/portfolio/ProjX_MathExp/MEx_04.png"
+                        },
+                        {
+                            "Tag": "Camel's Belly",
+                            "Link": "files/images/portfolio/ProjX_MathExp/MEx_05.png"
+                        },
+                        {
+                            "Tag": "Camel's Front Legs",
+                            "Link": "files/images/portfolio/ProjX_MathExp/MEx_06.png"
+                        },
+                        {
+                            "Tag": "Camel's Back Legs",
+                            "Link": "files/images/portfolio/ProjX_MathExp/MEx_07.png"
+                        },
+                        {
+                            "Tag": "Camel's Tail",
+                            "Link": "files/images/portfolio/ProjX_MathExp/MEx_08.png"
+                        }
+                    ],
+                    "Project": [
+                        {
+                            "Title": "External",
+                            "Type": "Desmos",
+                            "Link": "https://www.desmos.com/calculator/ypwiwc6q7e",
+                            "Note": "Disclaimer: "
+                        }
+                    ]
+                }
+            }            
+        },
+        {
+            "Title": "Medusa",
+            "ID": "MedusaArt",
+            "Type": "Artwork",
+            "Info": {
+                "Brief": {
+                    "Role": "Drawing and Painting",
+                    "Date": "February 2019",
+                    "Tools": [
+                        "Acrylic paints",
+                        " paint brushes",
+                        " paper",
+                        " and pencils"
+                    ],
+                    "Technique": [
+                        "Acrylic painting"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/medusa.jpg",
+                        "HyperLink": "https://www.artstation.com/artwork/mqLBmy",
+                        "Alt" : "Medusa painting"
+                    }
+                },
+                "Details": {
+                    "About the project": "An acrylic painting of the legend of Medusa. Medusa is sitting in front of a mirror staring at a reflection of herself before she  into a gorgon. She is surrounded by statues of soldiers she has turned. The use of dull colours portrays how lonelyness and isolation, and the light highlights the reflection of the inocent girl she was."
+                },
+                "Gallery": {
+                    "Images": [
+                        {
+                            "Tag": "Painting Front View",
+                            "Link": "files/images/portfolio/ProjX_Medusa/MDS_01.jpg"
+                        },
+                        {
+                            "Tag": "Painting Side View 1",
+                            "Link": "files/images/portfolio/ProjX_Medusa/MDS_02.jpg"
+                        },
+                        {
+                            "Tag": "Painting Side View 2",
+                            "Link": "files/images/portfolio/ProjX_Medusa/MDS_03.jpg"
+                        },
+                        {
+                            "Tag": "Painting Front View 2",
+                            "Link": "files/images/portfolio/ProjX_Medusa/MDS_04.jpg"
+                        },
+                        {
+                            "Tag": "Painting Stage 1: Medusa Blockout",
+                            "Link": "files/images/portfolio/ProjX_Medusa/MDS_05.jpg"
+                        },
+                        {
+                            "Tag": "Painting Stage 2: Painting Medusa",
+                            "Link": "files/images/portfolio/ProjX_Medusa/MDS_06.jpg"
+                        },
+                        {
+                            "Tag": "Painting Stage 3: Environment Blockout",
+                            "Link": "files/images/portfolio/ProjX_Medusa/MDS_07.jpg"
+                        },
+                        {
+                            "Tag": "Painting Stage 4: Soldier Blockout",
+                            "Link": "files/images/portfolio/ProjX_Medusa/MDS_08.jpg"
+                        },
+                        {
+                            "Tag": "Painting Stage 5: Adding More Soldiers",
+                            "Link": "files/images/portfolio/ProjX_Medusa/MDS_09.jpg"
+                        },
+                        {
+                            "Tag": "Painting Stage 6: Painting the Environment",
+                            "Link": "files/images/portfolio/ProjX_Medusa/MDS_10.jpg"
+                        },
+                        {
+                            "Tag": "Painting Stage 6: Side view 1",
+                            "Link": "files/images/portfolio/ProjX_Medusa/MDS_11.jpg"
+                        },
+                        {
+                            "Tag": "Painting Stage 6: Side View 2",
+                            "Link": "files/images/portfolio/ProjX_Medusa/MDS_12.jpg"
+                        },
+                        {
+                            "Tag": "Painting Stage 7: Painting the Ground",
+                            "Link": "files/images/portfolio/ProjX_Medusa/MDS_13.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Title": "Man Evolution",
+            "ID": "ManEvolArt",
+            "Type": "Artwork",
+            "Info": {
+                "Brief": {
+                    "Role": "Drawing and Painting",
+                    "Date": "December 2018",
+                    "Tools": [
+                        "Acrylic paints",
+                        " paint brushes",
+                        " paper",
+                        " and pencils"
+                    ],
+                    "Technique": [
+                        "Acrylic painting"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/man_evolution.jpg",
+                        "HyperLink": "https://www.artstation.com/artwork/lVLeaG",
+                        "Alt" : "Man Evolution painting"
+                    }
+                },
+                "Details": {
+                    "About the project": "An Acrylic painting portraying a hypothetical man evolution modal with 3 additional imaginary stages."
+                },
+                "Gallery": {
+                    "Images": [
+                        {
+                            "Tag": "Painting Front View",
+                            "Link": "files/images/portfolio/ProjX_ManEvolution/MnEv_01.jpg"
+                        },
+                        {
+                            "Tag": "Painting Side View 1",
+                            "Link": "files/images/portfolio/ProjX_ManEvolution/MnEv_02.jpg"
+                        },
+                        {
+                            "Tag": "Painting Side View 2",
+                            "Link": "files/images/portfolio/ProjX_ManEvolution/MnEv_03.jpg"
+                        },
+                        {
+                            "Tag": "Painting Front View 2",
+                            "Link": "files/images/portfolio/ProjX_ManEvolution/MnEv_04.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Title": "Boy to Butterfy Metamarphosis",
+            "ID": "BoyButterflyArt",
+            "Type": "Artwork",
+            "Info": {
+                "Brief": {
+                    "Role": "Drawing and Painting",
+                    "Date": "May 2018",
+                    "Tools": [
+                        "Water colours",
+                        " water",
+                        " paint brushes",
+                        " water colour paper",
+                        " pencils"
+                    ],
+                    "Technique": [
+                        "Water colour painting"
+                    ]
+                },
+                "Thumbnail": {
+                    "Type" : "Picture",
+                    "Data": {
+                        "Link": "files/images/portfolio/boy_2_butterfly.jpg",
+                        "HyperLink": "https://www.artstation.com/artwork/1nRbV8",
+                        "Alt" : "Boy to Butterfy Metamarphosis painting"
+                    }
+                },
+                "Details": {
+                    "About the project": "A water colour painting showing metamarphosis of a boy transforming into a butterfly hovering over water."
+                },
+                "Gallery": {
+                    "Images": [
+                        {
+                            "Tag": "Painting Front View",
+                            "Link": "files/images/portfolio/ProjX_BoyButterfly/BBM_01.jpg"
+                        },
+                        {
+                            "Tag": "Painting Side View 1",
+                            "Link": "files/images/portfolio/ProjX_BoyButterfly/BBM_02.jpg"
+                        },
+                        {
+                            "Tag": "Painting Side View 2",
+                            "Link": "files/images/portfolio/ProjX_BoyButterfly/BBM_03.jpg"
                         }
                     ]
                 }

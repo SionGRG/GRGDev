@@ -20,8 +20,9 @@ async function LoadPortfolioData() {
         Display the json data 
     * ************************ */
     let portfolioData = "";
-    //    for(let i = 0; i < data.PortfolioProjects.length(); i++)
-    for (let i in data.PortfolioProjects) {
+    /* Skip the first entry, as it is the placeholder data showing the format of an entry */
+    for(let i = 1; i < data.PortfolioProjects.length; i++) {
+    // for (let i in data.PortfolioProjects) {
         // Create a Card for every project
         let projCard = new ProjectCard("containerProj", data.PortfolioProjects[i].ID)
 
